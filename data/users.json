@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Danny",
+    "email": "danny.c.gleason@gmail.com",
+    "location": "Boston",
+    "gender": "male",
+    "yearsLearningCode": "1",
+    "personalityDescription": "Hi",
+    "age": "33",
+    "occupation": "Software Engineer",
+    "oneYearGoal": "to help peopel",
+    "fiveYearGoal": "ot make a 1M",
+    "preferredLanguage": "english"
+  },
+  {
+    "name": "Ddan ",
+    "email": "Gleason",
+    "location": "Boston",
+    "gender": "male",
+    "yearsLearningCode": "3",
+    "personalityDescription": "hi",
+    "age": "33",
+    "occupation": "se",
+    "oneYearGoal": "hi",
+    "fiveYearGoal": "hi",
+    "preferredLanguage": "english"
+  },
+  {
+    "name": "Eliza Gleason",
+    "email": "danny.c.gleason@gmail.com",
+    "location": "Boston, MA",
+    "gender": "male",
+    "yearsLearningCode": "5",
+    "personalityDescription": "Helper",
+    "age": "33",
+    "occupation": "Engineer",
+    "oneYearGoal": "Learnto code",
+    "fiveYearGoal": "get a job",
+    "preferredLanguage": "english"
+  }
+]
