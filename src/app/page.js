@@ -132,7 +132,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-blue-300 to-blue-600 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"></div>
               <div className="relative bg-white shadow-lg sm:rounded-3xl p-6 sm:p-10">
                 <h1 className="text-2xl sm:text-3xl font-extrabold text-center text-gray-900 mb-6">Code Buddy Finder (Boston, MA)</h1>
-                <h2 className="text-lg sm:text-xl font-semibold text-center text-gray-700 mb-6">Get paired with a compatible programmer. Use our Code Buddy Toolkit - checklists, project prompts, conversation starters, etc, to stay motivated and grow & learn together</h2>
+                <h3 className="text-lg sm:text-xl font-semibold text-center text-gray-700 mb-6">Get paired with a compatible programmer and use our free Code Buddy Toolkit - learning checklists, coding project prompts, conversation starters, etc, to stay motivated, grow and learn together</h3>
                 {!submitted ? (
                   <form onSubmit={handleSubmit} className="space-y-4">
                     {Object.entries(formData).map(([key, value]) => (
