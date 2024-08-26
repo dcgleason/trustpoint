@@ -33,7 +33,7 @@ export default function Home() {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prevState => ({
+    setFormData((prevState) => ({
       ...prevState,
       [name]: value
     }));
@@ -41,7 +41,7 @@ export default function Home() {
 
   const handleWaitlistChange = (e) => {
     const { name, value } = e.target;
-    setWaitlistData(prevState => ({
+    setWaitlistData((prevState) => ({
       ...prevState,
       [name]: value
     }));
@@ -233,7 +233,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                  <label htmlFor="state" className="block text-sm font-medium text-gray-700 capitalize mb-1">
+                  <label                   htmlFor="state" className="block text-sm font-medium text-gray-700 capitalize mb-1">
                       State
                     </label>
                     <input
@@ -261,7 +261,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                    <button
+                  <button
                       type="submit"
                       className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
@@ -276,6 +276,38 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Registration Success Modal */}
+      {submitted && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
+            <h3 className="text-xl font-bold mb-4">Thank you for registering!</h3>
+            <p>Someone should be reaching out within 24 hours.</p>
+            <button
+              onClick={() => setSubmitted(false)}
+              className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Waitlist Success Modal */}
+      {waitlistSubmitted && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
+            <h3 className="text-xl font-bold mb-4">We'll let you know when we're in your city!</h3>
+            <p>Thank you for joining the waitlist.</p>
+            <button
+              onClick={() => setWaitlistSubmitted(false)}
+              className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

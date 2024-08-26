@@ -33,7 +33,7 @@ export async function POST(request) {
 
   // Email content
   const mailOptions = {
-    from: 'your-email@gmail.com',  // Replace with your email
+    from: process.env.EMAIL_USER,  // Replace with your email
     to: 'danny.c.gleason@gmail.com',  // Replace with your target email
     subject: 'New User Registered',
     text: `A new user has registered with the following details:\n\n
