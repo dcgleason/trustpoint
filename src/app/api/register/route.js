@@ -1,65 +1,33 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
-import nodemailer from 'nodemailer';
+import { firestore } from '../../../lib/firebase'; // Adjust the import path as needed
+import { collection, addDoc } from "firebase/firestore"; 
 
 export async function POST(request) {
   const body = await request.json();
-  
-  // Define file path for users.json
-  const filePath = path.join(process.cwd(), 'data', 'users.json');
-  
-  // Read existing users from the file
-  let users = [];
-  if (fs.existsSync(filePath)) {
-    const fileContents = fs.readFileSync(filePath, 'utf8');
-    users = JSON.parse(fileContents);
+
+  try {
+    // Add a new document with a generated ID
+    const docRef = await addDoc(collection(firestore, "users"), {
+      name: body.name,
+      email: body.email,
+      location: body.location,
+      gender: body.gender,
+      yearsLearningCode: body.yearsLearningCode,
+      personalityDescription: body.personalityDescription,
+      age: body.age,
+      occupation: body.occupation,
+      oneYearGoal: body.oneYearGoal,
+      fiveYearGoal: body.fiveYearGoal,
+      preferredSpokenLanguage: body.preferredSpokenLanguage,
+      learn: body.learn,
+      skills: body.skills,
+      availability: body.availability,
+    });
+    console.log("Document written with ID: ", docRef.id);
+
+    return NextResponse.json({ message: 'User registered successfully' }, { status: 200 });
+  } catch (e) {
+    console.error("Error adding document: ", e);
+    return NextResponse.json({ message: 'Error registering user' }, { status: 500 });
   }
-  
-  // Add new user to the array
-  users.push(body);
-  
-  // Write updated users array back to the file
-  fs.writeFileSync(filePath, JSON.stringify(users, null, 2));
-  
-  // Email setup
-  const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
-    }
-  });
-
-  // Email content
-  const mailOptions = {
-    from: process.env.EMAIL_USER,  // Replace with your email
-    to: 'danny.c.gleason@gmail.com',  // Replace with your target email
-    subject: 'New User Registered',
-    text: `A new user has registered with the following details:\n\n
-           Name: ${body.name}\n
-           Email: ${body.email}\n
-           Location: ${body.location}\n
-           Gender: ${body.gender}\n
-           Years Learning Code: ${body.yearsLearningCode}\n
-           Personality Description: ${body.personalityDescription}\n
-           Age: ${body.age}\n
-           Occupation: ${body.occupation}\n
-           One Year Goal: ${body.oneYearGoal}\n
-           Five Year Goal: ${body.fiveYearGoal}\n
-           Preferred Spoken Language: ${body.preferredSpokenLanguage}\n
-           I want to learn: ${body.learn}\n
-           Skills: ${body.skills.map(skill => `\n  Skill: ${skill.skill}, Years: ${skill.years}`).join('')}\n`
-  };
-
-  // Send the email
-  transporter.sendMail(mailOptions, (error, info) => {
-    if (error) {
-      console.log('Error sending email:', error);
-      return NextResponse.json({ message: 'Error registering user, email not sent' }, { status: 500 });
-    } else {
-      console.log('Email sent:', info.response);
-      return NextResponse.json({ message: 'User registered successfully' }, { status: 200 });
-    }
-  });
 }
