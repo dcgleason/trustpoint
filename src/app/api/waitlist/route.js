@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { firestore } from '../../../lib/firebase'; // Adjust the import path as needed
+import { firestore } from '../../lib/firebase'; // Adjust the import path as needed
 import { collection, addDoc } from "firebase/firestore";
 
 export async function POST(request) {
