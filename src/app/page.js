@@ -338,8 +338,8 @@ export default function Home() {
               transition={{ type: "spring", damping: 15 }}
               className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full"
             >
-              <h3 className="text-xl font-bold mb-4">Thank you for registering!</h3>
-              <p>Someone should be reaching out within 24 hours.</p>
+              <h3 className="text-xl text-gray-900 font-bold mb-4">Thank you for registering!</h3>
+              <p className='text-gray-900'> Someone should be reaching out within 24 hours.</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -369,8 +369,8 @@ export default function Home() {
               transition={{ type: "spring", damping: 15 }}
               className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full"
             >
-              <h3 className="text-xl font-bold mb-4">We'll let you know when we're in your city!</h3>
-              <p>Thank you for joining the waitlist.</p>
+              <h3 className="text-xl text-gray-900 font-bold mb-4">We&apos;ll let you know when we&apos;re in your city!</h3>
+              <p className='text-gray-900'>Thank you for joining the waitlist.</p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
