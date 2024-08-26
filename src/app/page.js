@@ -189,7 +189,7 @@ export default function Home() {
                           value={skill.skill}
                           onChange={(e) => handleSkillChange(index, e)}
                           placeholder="Skill"
-                          className="block w-full shadow-sm sm:text-sm focus:ring                          -500 text-gray-900 focus:border-blue-500 border-gray-300 rounded-md"
+                          className="block w-full shadow-sm sm:text-sm focus:ring-blue-500 text-gray-900 focus:border-blue-500 border-gray-300 rounded-md"
                           required
                         />
                         <input
