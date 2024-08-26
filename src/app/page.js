@@ -1,6 +1,33 @@
 'use client';
 import { useState } from 'react';
 
+const coffeeSpots = [
+  { name: "Thinking Cup", address: "165 Tremont St, Boston, MA 02111" },
+  { name: "Tatte Bakery & Cafe", address: "399 Boylston St, Boston, MA 02116" },
+  { name: "Pavement Coffeehouse", address: "1096 Boylston St, Boston, MA 02215" },
+  { name: "George Howell Coffee", address: "505 Washington St, Boston, MA 02111" },
+  { name: "Render Coffee", address: "563 Columbus Ave, Boston, MA 02118" },
+  { name: "Ogawa Coffee", address: "10 Milk St, Boston, MA 02108" },
+  { name: "Barrington Coffee Roasting Company", address: "303 Newbury St, Boston, MA 02115" },
+  { name: "Jaho Coffee Roaster & Wine Bar", address: "665 Washington St, Boston, MA 02111" },
+  { name: "Boston Public Library Courtyard Restaurant", address: "700 Boylston St, Boston, MA 02116" },
+  { name: "Cafe Nero", address: "560 Washington St, Boston, MA 02111" },
+  { name: "Explorateur", address: "186 Tremont St, Boston, MA 02111" },
+  { name: "Flour Bakery + Cafe", address: "190 Massachusetts Ave, Boston, MA 02115" },
+  { name: "Trident Booksellers & Cafe", address: "338 Newbury St, Boston, MA 02115" },
+  { name: "Blue Bottle Coffee", address: "40 Bow St, Cambridge, MA 02138" },
+  { name: "1369 Coffee House", address: "1369 Cambridge St, Cambridge, MA 02139" },
+  { name: "Caffè Bene", address: "333 Massachusetts Ave, Boston, MA 02115" },
+  { name: "Capital One Café", address: "799 Boylston St, Boston, MA 02116" },
+  { name: "Caffè Nero", address: "55 Northern Ave, Boston, MA 02210" },
+  { name: "Equal Exchange Cafe", address: "226 Causeway St, Boston, MA 02114" },
+  { name: "Neighborhoods Coffee & Crepes", address: "96 Peterborough St, Boston, MA 02215" },
+  { name: "Cuppa Coffee", address: "1 Merrimac St, Boston, MA 02114" },
+  { name: "Cafe Bonjour", address: "55 Temple Pl, Boston, MA 02111" },
+  { name: "Caffè Vittoria", address: "290 Hanover St, Boston, MA 02113" },
+  { name: "Gracenote Coffee", address: "108 Lincoln St, Boston, MA 02111" }
+];
+
 export default function Home() {
   const [formData, setFormData] = useState({
     name: '',
@@ -15,6 +42,7 @@ export default function Home() {
     fiveYearGoal: '',
     preferredSpokenLanguage: '',
     learn: '',
+    availability: '', // Added for availability
   });
 
   const [skills, setSkills] = useState([{ skill: '', years: '' }]);
@@ -108,7 +136,10 @@ export default function Home() {
                   {Object.entries(formData).map(([key, value]) => (
                     <div key={key}>
                       <label htmlFor={key} className="block text-sm font-medium text-gray-700 capitalize mb-1">
-                        {key === 'personalityDescription' ? 'A friend would describe me as...' : key.replace(/([A-Z])/g, ' $1').trim()}
+                        {key === 'personalityDescription' ? 'A friend would describe me as...' 
+                        : key === 'learn' ? 'I want to learn...'
+                        : key === 'availability' ? 'General availability'
+                        : key.replace(/([A-Z])/g, ' $1').trim()}
                       </label>
                       {key === 'gender' ? (
                         <select
@@ -125,14 +156,14 @@ export default function Home() {
                           <option value="other">Other</option>
                           <option value="prefer_not_to_say">Prefer not to say</option>
                         </select>
-                      ) : key.includes('Goal') || key === 'personalityDescription' || key === 'learn' ? (
+                      ) : key.includes('Goal') || key === 'personalityDescription' || key === 'learn' || key === 'availability' ? (
                         <textarea
                           id={key}
                           name={key}
                           value={value}
                           onChange={handleChange}
                           rows="3"
-                          className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-blue-500  text-gray-900 focus:border-blue-500 border-gray-300 rounded-md"
+                          className="mt-1 block w-full shadow-sm sm:text-sm focus:ring-blue-500 text-gray-900 focus:border-blue-500 border-gray-300 rounded-md"
                           required
                         />
                       ) : (
@@ -158,7 +189,7 @@ export default function Home() {
                           value={skill.skill}
                           onChange={(e) => handleSkillChange(index, e)}
                           placeholder="Skill"
-                          className="block w-full shadow-sm sm:text-sm focus:ring-blue-500 text-gray-900 focus:border-blue-500 border-gray-300 rounded-md"
+                          className="block w-full shadow-sm sm:text-sm focus:ring                          -500 text-gray-900 focus:border-blue-500 border-gray-300 rounded-md"
                           required
                         />
                         <input
@@ -233,7 +264,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                  <label                   htmlFor="state" className="block text-sm font-medium text-gray-700 capitalize mb-1">
+                    <label htmlFor="state" className="block text-sm font-medium text-gray-700 capitalize mb-1">
                       State
                     </label>
                     <input
@@ -261,7 +292,7 @@ export default function Home() {
                     />
                   </div>
                   <div>
-                  <button
+                    <button
                       type="submit"
                       className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                     >
@@ -275,6 +306,18 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* Our Favorite Coding Spots in Boston */}
+      <div className="relative py-10 sm:max-w-4xl sm:mx-auto mt-12">
+        <h3 className="text-2xl font-extrabold text-center text-gray-900 mb-6">Our Favorite Coding Spots in Boston</h3>
+        <ul className="list-disc list-inside">
+          {coffeeSpots.map((spot, index) => (
+            <li key={index}>
+              <span className="font-semibold">{spot.name}</span> - {spot.address}
+            </li>
+          ))}
+        </ul>
       </div>
 
       {/* Registration Success Modal */}
