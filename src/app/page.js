@@ -268,7 +268,7 @@ export default function Home() {
   
         {/* Our Favorite Coding Spots in Boston */}
         <div className="mt-12">
-          <h3 className="text-xl sm:text-2xl font-extrabold text-center text-gray-900 mb-6">Our Favorite Coding Spots in Boston</h3>
+          <h3 className="text-xl sm:text-2xl font-extrabold text-center text-gray-900 mb-6">Our Favorite Coding Meet-up Spots in Boston</h3>
           <ul className="list-disc list-inside space-y-2">
             {coffeeSpots.map((spot, index) => (
               <li key={index} className="text-sm sm:text-base">
