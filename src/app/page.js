@@ -1,5 +1,7 @@
 'use client';
 import { useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+
 
 const coffeeSpots = [
   { name: "Thinking Cup", address: "165 Tremont St, Boston, MA 02111" },
