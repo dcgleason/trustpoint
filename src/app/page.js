@@ -338,19 +338,19 @@ export default function Home() {
 
       {/* Waitlist Success Modal */}
       {waitlistSubmitted && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
-            <h3 className="text-xl font-bold mb-4">We'll let you know when we're in your city!</h3>
-            <p>Thank you for joining the waitlist.</p>
-            <button
-              onClick={() => setWaitlistSubmitted(false)}
-              className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
-            >
-              Close
-            </button>
+          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+            <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
+              <h3 className="text-xl font-bold mb-4">We&apos;ll let you know when we&apos;re in your city!</h3>
+              <p>Thank you for joining the waitlist.</p>
+              <button
+                onClick={() => setWaitlistSubmitted(false)}
+                className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+              >
+                Close
+              </button>
+            </div>
           </div>
-        </div>
-      )}
+)}
     </div>
   );
 }
