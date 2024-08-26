@@ -155,7 +155,7 @@ export default function Home() {
                 </div>
               </form>
             ) : (
-              <p className="text-xl text-center text-green-600">Thanks for registering! We'll match you with a local code buddy soon.</p>
+              <p className="text-xl text-center text-green-600">Thanks for registering! We&apos;ll match you with a local code buddy soon.</p>
             )}
           </div>
         </div>
