@@ -320,37 +320,67 @@ export default function Home() {
         </ul>
       </div>
 
-      {/* Registration Success Modal */}
-      {submitted && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
-            <h3 className="text-xl font-bold mb-4">Thank you for registering!</h3>
-            <p>Someone should be reaching out within 24 hours.</p>
-            <button
-              onClick={() => setSubmitted(false)}
-              className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+     {/* Enhanced Registration Success Modal */}
+     <AnimatePresence>
+        {submitted && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          >
+            <motion.div 
+              initial={{ scale: 0.5, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.5, opacity: 0 }}
+              transition={{ type: "spring", damping: 15 }}
+              className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full"
             >
-              Close
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* Waitlist Success Modal */}
-      {waitlistSubmitted && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
-            <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
-              <h3 className="text-xl font-bold mb-4">We&apos;ll let you know when we&apos;re in your city!</h3>
-              <p>Thank you for joining the waitlist.</p>
-              <button
-                onClick={() => setWaitlistSubmitted(false)}
-                className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded"
+              <h3 className="text-xl font-bold mb-4">Thank you for registering!</h3>
+              <p>Someone should be reaching out within 24 hours.</p>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => setSubmitted(false)}
+                className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 ease-in-out"
               >
                 Close
-              </button>
-            </div>
-          </div>
-)}
+              </motion.button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Enhanced Waitlist Success Modal */}
+      <AnimatePresence>
+        {waitlistSubmitted && (
+          <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50"
+          >
+            <motion.div 
+              initial={{ y: -50, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              exit={{ y: 50, opacity: 0 }}
+              transition={{ type: "spring", damping: 15 }}
+              className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full"
+            >
+              <h3 className="text-xl font-bold mb-4">We'll let you know when we're in your city!</h3>
+              <p>Thank you for joining the waitlist.</p>
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => setWaitlistSubmitted(false)}
+                className="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-300 ease-in-out"
+              >
+                Close
+              </motion.button>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
