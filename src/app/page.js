@@ -27,7 +27,7 @@ export default function TrustpointConsulting() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint - AI Solutions for Federal Contractors</title>
+        <title>Trustpoint - AI Solutions for Federal Government Contractors</title>
         <meta name="description" content="Empower your SMB Federal contracting business with AI-driven solutions. Boost relationship building, contract discovery, and compliance." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
