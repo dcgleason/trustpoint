@@ -57,8 +57,8 @@ export default function TrustpointConsulting() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level-up your federal contracting sales processes with AI.</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Find and automatically nurture key agency POCs, discover new opportunities that fit for your business, and ensure contract compliance with custom AI solutions. </p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level-up your federal contracting sales processes with bespoke AI solutions.</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8"> </p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Elevate your federal contracting small business
             <ArrowRight className="ml-2" />
@@ -79,7 +79,7 @@ export default function TrustpointConsulting() {
             <div>
               <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Let AI automation streamline your Federal contracting sales processes</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We help SMB Federal government contractors and subcontractors use AI tools and custom solutions to develop the right relationships, find ideal opportunities, and stay compliant.
+                We help SMB Federal government contractors and subcontractors develop the right relationships, find ideal opportunities, and stay compliant using AI.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Discover Your AI Advantage</span>
