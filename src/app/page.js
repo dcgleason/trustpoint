@@ -82,7 +82,7 @@ export default function TrustpointConsulting() {
                  Unlock the power of AI for your small business. Once we learn about your business processes, we'll propose and implement bespoke AI solutions to help your business grow. 
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
-                <span className="text-lg md:text-xl font-semibold">Discover </span>
+                <span className="text-lg md:text-xl font-semibold">Discover how we can help</span>
                 <ArrowRight className="ml-2" />
               </a>
             </div>
