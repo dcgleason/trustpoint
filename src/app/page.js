@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import { ArrowRight, Database, Shield, Zap, ChevronDown } from 'lucide-react';
+import { ArrowRight, Database, Shield, Zap, ChevronDown, TrendingUp } from 'lucide-react';
 
 export default function TrustpointConsulting() {
   const [name, setName] = useState('');
@@ -26,8 +26,8 @@ export default function TrustpointConsulting() {
   return (
     <div className="min-h-screen bg-white text-navy relative overflow-hidden">
       <Head>
-        <title>Trustpoint Consulting Group LLC - AI Integration Experts</title>
-        <meta name="description" content="Harness the power of your organizational data with Trustpoint Consulting Group LLC. We integrate AI systems to transform your business securely." />
+        <title>Trustpoint Consulting - AI-Powered Data Integration for 10x ROI</title>
+        <meta name="description" content="Unlock hidden insights in your data with custom AI integrations. Boost efficiency and ROI in just 30 days, or you don't pay." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -49,10 +49,10 @@ export default function TrustpointConsulting() {
           variants={fadeIn}
           className="text-center mb-40 h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-6xl font-bold text-navy mb-4 tracking-tight">Unlock Your Data&apos;s Full Potential in 30 Days</h1>
-          <p className="text-3xl text-cobalt mb-8">AI-Powered Solutions for Enterprise SaaS Platforms</p>
+          <h1 className="text-6xl font-bold text-navy mb-4 tracking-tight">10x Your ROI with AI-Powered Data Insights</h1>
+          <p className="text-3xl text-cobalt mb-8">Custom AI Integration. Live in 30 Days. Or You Don't Pay.</p>
           <a href="#contact" className="bg-cobalt text-white py-3 px-6 rounded-full text-xl font-semibold hover:bg-navy transition-colors inline-flex items-center">
-            Start Your AI Journey
+            Unlock Your Data's Potential
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
@@ -68,11 +68,12 @@ export default function TrustpointConsulting() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-semibold text-navy mb-6">Harness the power of your organizational data</h2>
+              <h2 className="text-4xl font-semibold text-navy mb-6">Transform Raw Data into Actionable Intelligence</h2>
               <p className="text-xl text-gray-700 mb-6">
-              Our AI experts seamlessly integrate your existing systems with cutting-edge AI. We handle the technical complexity, so you can focus on strategic decisions. And with bank-grade security, your data stays as safe as it is valuable.  </p>
+                We don't just implement AI systems. We create custom integrations that extract hidden insights from your existing data, driving real business value. Our team works directly with your developers to ensure seamless integration and immediate ROI.
+              </p>
               <a href="#contact" className="inline-flex items-center text-cobalt hover:text-navy transition-colors">
-                <span className="text-xl font-semibold">Speak to an expert today</span>
+                <span className="text-xl font-semibold">Get Your Custom AI Strategy</span>
                 <ArrowRight className="ml-2" />
               </a>
             </div>
@@ -81,15 +82,15 @@ export default function TrustpointConsulting() {
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Database className="text-cobalt mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Advanced data integration and systems optimization</span>
+                  <span className="text-lg">Custom AI integrations with your existing data systems</span>
                 </li>
                 <li className="flex items-start">
                   <Zap className="text-cobalt mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Cutting-edge AI implementation for business transformation</span>
+                  <span className="text-lg">Rapid deployment of AI-powered analytics and insights</span>
                 </li>
                 <li className="flex items-start">
-                  <Shield className="text-cobalt mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Robust security measures to protect your valuable data</span>
+                  <TrendingUp className="text-cobalt mr-4 flex-shrink-0 w-8 h-8" />
+                  <span className="text-lg">Data-driven strategies to maximize ROI and efficiency</span>
                 </li>
               </ul>
             </div>
@@ -103,7 +104,7 @@ export default function TrustpointConsulting() {
           className="mb-40"
           id="contact"
         >
-          <h2 className="text-4xl font-semibold text-navy mb-8 text-center">Ready to Transform Your Business?</h2>
+          <h2 className="text-4xl font-semibold text-navy mb-8 text-center">Ready to Harness the Full Power of Your Data?</h2>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-xl border border-navy">
             <div className="mb-4">
               <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">Name</label>
@@ -128,7 +129,7 @@ export default function TrustpointConsulting() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Message</label>
+              <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Tell us about your data challenges</label>
               <textarea
                 id="message"
                 value={message}
@@ -139,7 +140,7 @@ export default function TrustpointConsulting() {
               ></textarea>
             </div>
             <button type="submit" className="w-full bg-cobalt text-white font-semibold py-3 px-4 rounded-md hover:bg-navy transition-colors text-xl">
-              Request a Consultation
+              Get Your Custom AI Integration Strategy
             </button>
           </form>
         </motion.section>
