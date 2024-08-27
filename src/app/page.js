@@ -77,12 +77,12 @@ export default function TrustpointConsulting() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">AI Solutions for traditional small businesses</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Done-for-you AI solutions to level-up your small business sales and marketing. </h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                Unlock the power of AI for your small business. Our done-for-you solutions automate tedious tasks, freeing you to focus on growth and client relationships.
+                 Unlock the power of AI for your small business. Once we learn about your business processes, we'll propose and implement bespoke AI solutions to help your business grow. 
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
-                <span className="text-lg md:text-xl font-semibold">Discover Your AI Advantage</span>
+                <span className="text-lg md:text-xl font-semibold">Discover </span>
                 <ArrowRight className="ml-2" />
               </a>
             </div>
