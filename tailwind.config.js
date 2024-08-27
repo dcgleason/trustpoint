@@ -13,8 +13,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        navy: '#000080',
-        cobalt: '#0000FF',
+        'navy-blue': '#1E3968',
+        'light-blue': '#4A90E2',
+        'white': '#FFFFFF',
       },
       animation: {
         'wire-grow': 'wireGrow 4s ease-out forwards',
