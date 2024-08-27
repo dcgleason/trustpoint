@@ -3,12 +3,13 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import { ArrowRight, Code, Zap, Brain, ChevronDown, Layers } from 'lucide-react';
+import { ArrowRight, Code, Zap, Brain, ChevronDown, Layers, Menu } from 'lucide-react';
 
 export default function TrustpointConsulting() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -29,15 +30,21 @@ export default function TrustpointConsulting() {
         <title>Trustpoint - Elite AI Developers to Supercharge Your Team</title>
         <meta name="description" content="Infuse cutting-edge AI talent into your dev team. Our experts bring bleeding-edge skills to accelerate your AI initiatives. 100% satisfaction guarantee." />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="text-2xl font-bold">Trustpoint</div>
-          <div className="space-x-4">
-            <a href="#about" className="hover:text-light-blue transition-colors">About</a>
-            <a href="#services" className="hover:text-light-blue transition-colors">Services</a>
-            <a href="#contact" className="hover:text-light-blue transition-colors">Contact</a>
+          <div className="md:hidden">
+            <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
+              <Menu size={24} />
+            </button>
+          </div>
+          <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
+            <a href="#about" className="block md:inline hover:text-light-blue transition-colors py-2">About</a>
+            <a href="#services" className="block md:inline hover:text-light-blue transition-colors py-2">Services</a>
+            <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
           </div>
         </div>
       </nav>
@@ -47,11 +54,11 @@ export default function TrustpointConsulting() {
           initial="hidden"
           animate="visible"
           variants={fadeIn}
-          className="text-center mb-40 h-screen flex flex-col justify-center items-center"
+          className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level Up Your Dev Team with Elite AI Talent</h1>
-          <p className="text-3xl text-light-blue mb-8">Bleeding-Edge Expertise. Immediate Impact. 100% Satisfaction Guaranteed.</p>
-          <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level Up Your Dev Team with Elite AI Talent</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Bleeding-Edge Expertise. Immediate Impact. 100% Satisfaction Guaranteed.</p>
+          <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Supercharge Your AI Development
             <ArrowRight className="ml-2" />
           </a>
@@ -64,33 +71,33 @@ export default function TrustpointConsulting() {
           initial="hidden"
           animate="visible"
           variants={fadeIn}
-          className="mb-40"
+          className="mb-20 md:mb-40"
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-semibold text-navy-blue mb-6">Infuse Top AI Talent into Your Development Team</h2>
-              <p className="text-xl text-navy-blue mb-6">
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Infuse Top AI Talent into Your Development Team</h2>
+              <p className="text-lg md:text-xl text-navy-blue mb-6">
                 Gift your team with AI experts who are fluent in the latest frameworks and methodologies. Our seasoned professionals seamlessly integrate with your team and will bring cutting-edge skills to accelerate your AI initiatives.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
-                <span className="text-xl font-semibold">Get Your AI Talent Boost</span>
+                <span className="text-lg md:text-xl font-semibold">Get Your AI Talent Boost</span>
                 <ArrowRight className="ml-2" />
               </a>
             </div>
-            <div className="bg-navy-blue text-white p-8 rounded-lg shadow-xl">
-              <h3 className="text-3xl font-semibold mb-6">Our AI Developers Deliver</h3>
+            <div className="bg-navy-blue text-white p-6 md:p-8 rounded-lg shadow-xl mt-8 md:mt-0">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI Developers Deliver</h3>
               <ul className="space-y-6">
                 <li className="flex items-start">
-                  <Brain className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Deep expertise in neural networks, machine learning, and natural language processing</span>
+                  <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
+                  <span className="text-base md:text-lg">Deep expertise in neural networks, machine learning, and natural language processing</span>
                 </li>
                 <li className="flex items-start">
-                  <Code className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Fluency in Python, TensorFlow, PyTorch, and other top AI frameworks</span>
+                  <Code className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
+                  <span className="text-base md:text-lg">Fluency in Python, TensorFlow, PyTorch, and other top AI frameworks</span>
                 </li>
                 <li className="flex items-start">
-                  <Layers className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Seamless integration with your existing tech stack and development processes</span>
+                  <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
+                  <span className="text-base md:text-lg">Seamless integration with your existing tech stack and development processes</span>
                 </li>
               </ul>
             </div>
@@ -101,11 +108,11 @@ export default function TrustpointConsulting() {
           initial="hidden"
           animate="visible"
           variants={fadeIn}
-          className="mb-40"
+          className="mb-20 md:mb-40"
           id="contact"
         >
-          <h2 className="text-4xl font-semibold text-navy-blue mb-8 text-center">Ready to Accelerate Your AI Development?</h2>
-          <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-xl border border-navy-blue">
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Ready to Accelerate Your AI Development?</h2>
+          <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
             <div className="mb-4">
               <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
               <input
@@ -139,7 +146,7 @@ export default function TrustpointConsulting() {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-xl">
+            <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl">
               Get Your Elite AI Developers
             </button>
           </form>
