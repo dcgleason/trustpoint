@@ -27,8 +27,8 @@ export default function TrustpointConsulting() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint - AI Automation for Traditional Businesses</title>
-        <meta name="description" content="Transform your small business with AI-powered sales and marketing automation. Boost efficiency and growth with our done-for-you solutions." />
+        <title>Trustpoint - AI Solutions for Federal Contractors</title>
+        <meta name="description" content="Empower your SMB Federal contracting business with AI-driven solutions. Boost relationship building, contract discovery, and compliance." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
@@ -57,10 +57,10 @@ export default function TrustpointConsulting() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Automate your manual sales and marketing processes with AI</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Cut costs, reduce overhead from from manual tasks, and enhance customer engagement with our custom-built AI solutions. </p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Revolutionize Your Federal Contracting Business with AI</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Develop key agency relationships, discover prime opportunities, and ensure compliance with our custom AI solutions.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Learn more today
+            Elevate Your Contracting Business
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
@@ -77,29 +77,29 @@ export default function TrustpointConsulting() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Done-for-you AI solutions to level-up your small business sales and marketing. </h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Empower Your SMB Federal Contracting Business</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                 Unlock the power of AI for your small business. Once we learn about your business processes, we'll propose and implement bespoke AI solutions to help your business grow. 
+                We help SMB Federal government contractors and subcontractors develop the right relationships, find ideal opportunities, and stay compliant through custom AI-driven solutions.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
-                <span className="text-lg md:text-xl font-semibold">Discover how we can help</span>
+                <span className="text-lg md:text-xl font-semibold">Discover Your AI Advantage</span>
                 <ArrowRight className="ml-2" />
               </a>
             </div>
             <div className="bg-navy-blue text-white p-6 md:p-8 rounded-lg shadow-xl mt-8 md:mt-0">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI Solutions Deliver ROI</h3>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI Solutions Deliver</h3>
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Intelligent lead capture and nurturing systems</span>
+                  <span className="text-base md:text-lg">Intelligent agency relationship management</span>
                 </li>
                 <li className="flex items-start">
                   <Code className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Automated customer service and support chatbots</span>
+                  <span className="text-base md:text-lg">Automated contract opportunity discovery</span>
                 </li>
                 <li className="flex items-start">
                   <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Seamless integration with your existing tools and processes</span>
+                  <span className="text-base md:text-lg">Seamless compliance monitoring and reporting</span>
                 </li>
               </ul>
             </div>
@@ -116,16 +116,16 @@ export default function TrustpointConsulting() {
           <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Our AI-Powered Services</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Lead Capture & Nurturing</h3>
-              <p className="text-navy-blue">Automate your lead generation and follow-up processes with AI-driven systems.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Agency Relationship Builder</h3>
+              <p className="text-navy-blue">Develop and nurture key relationships with agencies and prime contractors using AI-driven insights.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">AI Chatbots</h3>
-              <p className="text-navy-blue">Provide 24/7 customer support and qualify leads with intelligent conversational AI.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Contract Opportunity Finder</h3>
+              <p className="text-navy-blue">Discover ideal subcontract opportunities that fit your business using our AI-powered matching system.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Workflow Automation</h3>
-              <p className="text-navy-blue">Streamline your business processes with custom AI-powered automation solutions.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Compliance Assurance</h3>
+              <p className="text-navy-blue">Stay compliant with government and contract requirements through our AI-driven monitoring and alert system.</p>
             </div>
           </div>
         </motion.section>
@@ -143,7 +143,7 @@ export default function TrustpointConsulting() {
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Starter</h3>
               <p className="text-3xl font-bold text-navy-blue mb-4">$1,750/mo</p>
               <ul className="text-navy-blue mb-6">
-                <li>• 1 AI-powered automation</li>
+                <li>• 1 AI-powered service</li>
                 <li>• Basic integration support</li>
                 <li>• Monthly strategy call</li>
               </ul>
@@ -153,10 +153,10 @@ export default function TrustpointConsulting() {
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Pro</h3>
               <p className="text-3xl font-bold text-navy-blue mb-4">$2,750/mo</p>
               <ul className="text-navy-blue mb-6">
-                <li>• 3 AI-powered automations</li>
+                <li>• 3 AI-powered services</li>
                 <li>• Full integration support</li>
                 <li>• Bi-weekly strategy calls</li>
-                <li>• Custom AI chatbot</li>
+                <li>• Custom AI dashboard</li>
               </ul>
               <a href="#contact" className="block text-center bg-navy-blue text-white py-2 px-4 rounded-md hover:bg-light-blue transition-colors">Get Started</a>
             </div>
@@ -164,7 +164,7 @@ export default function TrustpointConsulting() {
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Enterprise</h3>
               <p className="text-3xl font-bold text-navy-blue mb-4">Custom</p>
               <ul className="text-navy-blue mb-6">
-                <li>• Unlimited AI automations</li>
+                <li>• Unlimited AI services</li>
                 <li>• Priority support</li>
                 <li>• Weekly strategy sessions</li>
                 <li>• Custom AI development</li>
@@ -181,7 +181,7 @@ export default function TrustpointConsulting() {
           className="mb-20 md:mb-40"
           id="contact"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Ready to Automate Your Business?</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Ready to Transform Your Federal Contracting Business?</h2>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
             <div className="mb-4">
               <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
@@ -206,7 +206,7 @@ export default function TrustpointConsulting() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">Tell us about your business automation needs</label>
+              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">Tell us about your federal contracting needs</label>
               <textarea
                 id="message"
                 value={message}
