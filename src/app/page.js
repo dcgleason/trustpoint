@@ -57,8 +57,8 @@ export default function TrustpointConsulting() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Empower Your Business with AI-Driven Automation</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Done-for-You AI Solutions to Streamline Sales, Marketing, and Customer Service</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level-up your sales and marketing with AI-driven automation</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">AI solutions that optimise efficiency, reduce costs, and enhance customer engagement. </p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Transform Your Business Today
             <ArrowRight className="ml-2" />
