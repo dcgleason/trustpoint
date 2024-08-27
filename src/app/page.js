@@ -57,7 +57,7 @@ export default function TrustpointConsulting() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level-up you federal sales processes with AI</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level-up you federal contracting sales processes with AI</h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">Develop key agency relationships, discover prime opportunities, and ensure compliance with our custom AI solutions.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Elevate your federal contracting small business
@@ -77,9 +77,9 @@ export default function TrustpointConsulting() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Empower Your SMB Federal Contracting Business</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Let AI automation level-up your Federal contracting sales process</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We help SMB Federal government contractors and subcontractors develop the right relationships, find ideal opportunities, and stay compliant through custom AI-driven solutions.
+                We help SMB Federal government contractors and subcontractors use AI tools and custom solutions to develop the right relationships, find ideal opportunities, and stay compliant.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Discover Your AI Advantage</span>
