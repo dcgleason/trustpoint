@@ -70,7 +70,7 @@ export default function TrustpointConsulting() {
             <div>
               <h2 className="text-4xl font-semibold text-navy-blue mb-6">Infuse Top AI Talent into Your Development Team</h2>
               <p className="text-xl text-navy-blue mb-6">
-                Provide your team with AI experts who are fluent in the latest frameworks and methodologies. Our seasoned professionals seamlessly integrate with your team, bringing cutting-edge skills to accelerate your AI initiatives.
+                Gift your team with AI experts who are fluent in the latest frameworks and methodologies. Our seasoned professionals seamlessly integrate with your team and will bring cutting-edge skills to accelerate your AI initiatives.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-xl font-semibold">Get Your AI Talent Boost</span>
