@@ -49,7 +49,7 @@ export default function TrustpointConsulting() {
           variants={fadeIn}
           className="text-center mb-40 h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-6xl font-bold text-navy mb-4 tracking-tight">Unlock Your Data's Full Potential in 30 Days</h1>
+          <h1 className="text-6xl font-bold text-navy mb-4 tracking-tight">Unlock Your Data&apos;s Full Potential in 30 Days</h1>
           <p className="text-3xl text-cobalt mb-8">AI-Powered Solutions for Enterprise SaaS Platforms</p>
           <a href="#contact" className="bg-cobalt text-white py-3 px-6 rounded-full text-xl font-semibold hover:bg-navy transition-colors inline-flex items-center">
             Start Your AI Journey
