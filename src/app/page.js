@@ -143,9 +143,8 @@ export default function TrustpointConsulting() {
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Starter</h3>
               <p className="text-3xl font-bold text-navy-blue mb-4">$1,750/mo</p>
               <ul className="text-navy-blue mb-6">
-                <li>• 1 AI-powered service</li>
-                <li>• Basic integration support</li>
-                <li>• Monthly strategy call</li>
+                <li>• 10 hour / week of dev work</li>
+                <li>• Monthly strategy setting call</li>
               </ul>
               <a href="#contact" className="block text-center bg-navy-blue text-white py-2 px-4 rounded-md hover:bg-light-blue transition-colors">Get Started</a>
             </div>
@@ -153,10 +152,8 @@ export default function TrustpointConsulting() {
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Pro</h3>
               <p className="text-3xl font-bold text-navy-blue mb-4">$2,750/mo</p>
               <ul className="text-navy-blue mb-6">
-                <li>• 3 AI-powered services</li>
-                <li>• Full integration support</li>
-                <li>• Bi-weekly strategy calls</li>
-                <li>• Custom AI dashboard</li>
+                <li>• 15 hours / week of dev work</li>
+                <li>• Bi-weekly strategy setting calls</li>
               </ul>
               <a href="#contact" className="block text-center bg-navy-blue text-white py-2 px-4 rounded-md hover:bg-light-blue transition-colors">Get Started</a>
             </div>
@@ -164,10 +161,9 @@ export default function TrustpointConsulting() {
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Enterprise</h3>
               <p className="text-3xl font-bold text-navy-blue mb-4">Custom</p>
               <ul className="text-navy-blue mb-6">
-                <li>• Unlimited AI services</li>
+                <li>• Custom hours / week of dev work</li>
                 <li>• Priority support</li>
                 <li>• Weekly strategy sessions</li>
-                <li>• Custom AI development</li>
               </ul>
               <a href="#contact" className="block text-center bg-navy-blue text-white py-2 px-4 rounded-md hover:bg-light-blue transition-colors">Contact Us</a>
             </div>
