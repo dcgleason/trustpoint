@@ -87,7 +87,7 @@ export default function TrustpointConsulting() {
               </a>
             </div>
             <div className="bg-navy-blue text-white p-6 md:p-8 rounded-lg shadow-xl mt-8 md:mt-0">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI Solutions Deliver</h3>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI Solutions Deliver ROI</h3>
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
