@@ -129,7 +129,7 @@ export default function TrustpointConsulting() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Tell us about your data challenges</label>
+              <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">Tell us about your AI data challenges</label>
               <textarea
                 id="message"
                 value={message}
