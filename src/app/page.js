@@ -117,11 +117,11 @@ export default function TrustpointConsulting() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Agency Relationship Builder</h3>
-              <p className="text-navy-blue">Develop and nurture key relationships with agencies and prime contractors using AI-driven insights.</p>
+              <p className="text-navy-blue">Develop and nurture key relationships with agencies and prime contractors using AI-driven insights, scraped from government websites using AI.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Contract Opportunity Finder</h3>
-              <p className="text-navy-blue">Discover ideal subcontract opportunities that fit your business using our AI-powered matching system.</p>
+              <p className="text-navy-blue">Leverage our contracting databases and AI to discover ideal subcontract opportunities that fit your business using our AI-powered matching system.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Compliance Assurance</h3>
