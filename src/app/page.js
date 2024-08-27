@@ -58,7 +58,7 @@ export default function TrustpointConsulting() {
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Level-up your federal contracting sales processes with AI.</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">The most powerful custom-built AI solutions to help your SMB find and win more government contracting opportunities. </p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">The most powerful, custom-built AI solutions to help your SMB find and win more gov contracting opportunities. </p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Elevate your federal contracting SMB
             <ArrowRight className="ml-2" />
