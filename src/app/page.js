@@ -70,7 +70,7 @@ export default function TrustpointConsulting() {
             <div>
               <h2 className="text-4xl font-semibold text-navy mb-6">Transform Raw Data into Actionable Intelligence</h2>
               <p className="text-xl text-gray-700 mb-6">
-                We don't just implement AI systems. We create custom integrations that extract hidden insights from your existing data, driving real business value. Our team works directly with your developers to ensure seamless integration and immediate ROI.
+                Create custom integrations that extract hidden insights from your existing data and drive real business value. Our team works directly with your developers to deliver value from day 1.
               </p>
               <a href="#contact" className="inline-flex items-center text-cobalt hover:text-navy transition-colors">
                 <span className="text-xl font-semibold">Get Your Custom AI Strategy</span>
@@ -86,7 +86,7 @@ export default function TrustpointConsulting() {
                 </li>
                 <li className="flex items-start">
                   <Zap className="text-cobalt mr-4 flex-shrink-0 w-8 h-8" />
-                  <span className="text-lg">Rapid deployment of AI-powered analytics and insights</span>
+                  <span className="text-lg">Rapid deployment of AI-powered systems</span>
                 </li>
                 <li className="flex items-start">
                   <TrendingUp className="text-cobalt mr-4 flex-shrink-0 w-8 h-8" />
