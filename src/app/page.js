@@ -244,7 +244,7 @@ export default function AIConsultancyLandingPage() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">What are your business needs?</label>
+              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">What would you like to achieve? </label>
               <textarea
                 id="message"
                 value={message}
