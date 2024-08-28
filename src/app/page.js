@@ -58,7 +58,7 @@ export default function AIConsultancyLandingPage() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint Consulting - Integrate AI into Your Processes</title>
+        <title>Trustpoint Consulting - Integrate AI into your processes</title>
         <meta name="description" content="Empower your business with cutting-edge AI solutions. Expert consulting in RAG, LLM fine-tuning, and data processing optimization." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -87,8 +87,8 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Integrate AI into Your Business Processes</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Unlock the power of AI with our expert consulting and implementation services</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Integrate AI into your business processes</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Unlock AI-driven results with our expert consulting and implementation services</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Speak with an AI expert
             <ArrowRight className="ml-2" />
