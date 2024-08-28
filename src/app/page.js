@@ -158,6 +158,36 @@ export default function AIConsultancyLandingPage() {
           </div>
         </motion.section>
 
+              {/* New "Our talent comes from" Section */}
+              <motion.section
+                initial="hidden"
+                animate="visible"
+                variants={fadeIn}
+                className="mb-20 md:mb-40 w-full"
+              >
+                <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Our talent comes from</h3>
+                <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+                  <div className="w-48 h-48 flex items-center justify-center">
+                    <Image
+                      src="/koniag.png"
+                      alt="Koniag"
+                      width={192}
+                      height={192}
+                      className="object-contain"
+                    />
+                  </div>
+                  <div className="w-48 h-48 flex items-center justify-center">
+                    <Image
+                      src="/ibm.png"
+                      alt="IBM"
+                      width={192}
+                      height={192}
+                      className="object-contain"
+                    />
+                  </div>
+                </div>
+              </motion.section>
+
         {/* <motion.section
           initial="hidden"
           animate="visible"
