@@ -112,8 +112,8 @@ export default function AIConsultancyLandingPage() {
               <Image
                 src="/dayos-transparent.png"
                 alt="Dayos"
-                width={200}
-                height={67}
+                width={300}
+                height={100}
                 className="object-contain"
               />
             </a>
@@ -189,7 +189,7 @@ export default function AIConsultancyLandingPage() {
           className="mb-20 md:mb-40"
           id="contact"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Ready to Transform Your Business with AI?</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Book an intro</h2>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
             <div className="mb-4">
               <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
@@ -214,7 +214,7 @@ export default function AIConsultancyLandingPage() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">Tell us about your AI integration needs</label>
+              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">What are your business needs?</label>
               <textarea
                 id="message"
                 value={message}
@@ -225,7 +225,7 @@ export default function AIConsultancyLandingPage() {
               ></textarea>
             </div>
             <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl">
-              Get Your Custom AI Solution
+              Submit
             </button>
           </form>
         </motion.section>
