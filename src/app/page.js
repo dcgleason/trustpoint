@@ -107,12 +107,12 @@ export default function AIConsultancyLandingPage() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Harness the Power of AI for Your Business</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Leverage AI to unlock results for your business</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
                 We specialize in integrating cutting-edge AI solutions into your existing processes, helping you stay ahead in today&apos;s competitive landscape.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
-                <span className="text-lg md:text-xl font-semibold">Discover Your AI Potential</span>
+                <span className="text-lg md:text-xl font-semibold">Learn more</span>
                 <ArrowRight className="ml-2" />
               </a>
             </div>
@@ -121,15 +121,15 @@ export default function AIConsultancyLandingPage() {
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Database className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">RAG and Vector Database Integration</span>
+                  <span className="text-base md:text-lg">RAG and vector database integration</span>
                 </li>
                 <li className="flex items-start">
                   <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">LLM Fine-tuning</span>
+                  <span className="text-base md:text-lg">LLM fine-tuning</span>
                 </li>
                 <li className="flex items-start">
                   <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Data Processing & Optimization for LLMs </span>
+                  <span className="text-base md:text-lg">Data orocessing & optimization for LLMs </span>
                 </li>
               </ul>
             </div>
