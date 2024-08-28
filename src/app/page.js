@@ -150,8 +150,8 @@ export default function AIConsultancyLandingPage() {
               <p className="text-navy-blue">Enhance your information retrieval systems with Retrieval-Augmented Generation (RAG) and efficiently run vector databases.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">LLMf ine-tuning</h3>
-              <p className="text-navy-blue">Customize large language models to your specific business needs, improving model accuracy and relevance.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">LLM fine-tuning & hosting</h3>
+              <p className="text-navy-blue">Customize large language models to your specific business needs, improving model accuracyr, relevance, and data security.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Data processing optimization</h3>
