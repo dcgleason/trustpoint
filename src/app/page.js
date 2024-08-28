@@ -90,7 +90,7 @@ export default function AIConsultancyLandingPage() {
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Integrate AI into Your Business Processes</h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">Unlock the power of AI with our expert consulting and implementation services</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Transform Your Business with AI
+            Speak with an AI expert
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
