@@ -146,15 +146,15 @@ export default function AIConsultancyLandingPage() {
           <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">What we can do for you</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">RAG + Vector DB Integration</h3>
-              <p className="text-navy-blue">Enhance your information retrieval systems with Retrieval-Augmented Generation (RAG) and efficient vector databases.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">RAG + Vctor DB tntegration</h3>
+              <p className="text-navy-blue">Enhance your information retrieval systems with Retrieval-Augmented Generation (RAG) and efficiently run vector databases.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">LLM Fine-tuning</h3>
-              <p className="text-navy-blue">Customize large language models to your specific business needs, improving accuracy and relevance.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">LLMf ine-tuning</h3>
+              <p className="text-navy-blue">Customize large language models to your specific business needs, improving model accuracy and relevance.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Data Processing Optimization</h3>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Data processing optimization</h3>
               <p className="text-navy-blue">Streamline your data processing pipelines to maximize the performance of your AI and LLM systems.</p>
             </div>
           </div>
