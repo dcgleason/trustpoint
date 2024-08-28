@@ -110,7 +110,7 @@ export default function AIConsultancyLandingPage() {
             <div className="flex justify-center items-center">
             <a href="https://dayos-24.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
               <Image
-                src="/dayos.png"
+                src="/dayos-transparent.png"
                 alt="Dayos"
                 width={200}
                 height={67}
