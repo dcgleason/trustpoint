@@ -165,7 +165,7 @@ export default function AIConsultancyLandingPage() {
                 variants={fadeIn}
                 className="mb-20 md:mb-40 w-full"
               >
-                <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Our Professional Roots</h3>
+                <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Our professional roots include</h3>
                 <div className="flex flex-col md:flex-row justify-center items-center gap-8">
                   <div className="w-48 h-48 flex items-center justify-center">
                     <Image
