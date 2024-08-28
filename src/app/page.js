@@ -88,7 +88,7 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock unrealized technical & business results with our AI experts</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock unrealized results with our AI experts</h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Top talent. Just for start-ups.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Speak with an AI expert
@@ -131,7 +131,7 @@ export default function AIConsultancyLandingPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we can do for you</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We specialize in integrating cutting-edge AI solutions into your existing processes, and do whatever we can to help you achieve results quickly.
+                We specialize in integrating cutting-edge AI solutions into your existing tech stack. Our experts can help you with:
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
@@ -165,7 +165,7 @@ export default function AIConsultancyLandingPage() {
                 variants={fadeIn}
                 className="mb-20 md:mb-40 w-full"
               >
-                <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Our talent comes from</h3>
+                <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Our Professional Roots</h3>
                 <div className="flex flex-col md:flex-row justify-center items-center gap-8">
                   <div className="w-48 h-48 flex items-center justify-center">
                     <Image
