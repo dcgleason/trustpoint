@@ -255,7 +255,7 @@ export default function AIConsultancyLandingPage() {
               ></textarea>
             </div>
             <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl">
-              Submit to connect
+              Submit to Connect
             </button>
           </form>
         </motion.section>
