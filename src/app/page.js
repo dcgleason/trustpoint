@@ -5,6 +5,7 @@ import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Database, Brain, ChevronDown, Layers, Menu } from 'lucide-react';
 import Modal from '../app/components/Modal'; 
+import Image from 'next/image';
 
 export default function AIConsultancyLandingPage() {
   const [name, setName] = useState('');
