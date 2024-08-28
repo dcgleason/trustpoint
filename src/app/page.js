@@ -151,7 +151,7 @@ export default function AIConsultancyLandingPage() {
                 </li>
                 <li className="flex items-start">
                   <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Data orocessing & optimization for LLMs </span>
+                  <span className="text-base md:text-lg">Data processing & optimization for LLMs </span>
                 </li>
               </ul>
             </div>
