@@ -88,8 +88,8 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock new results with AI</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Expert talent. No fluff / BS.</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock results with AI</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Expert talent. Just for start-ups.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Speak with an AI expert
             <ArrowRight className="ml-2" />
@@ -108,7 +108,7 @@ export default function AIConsultancyLandingPage() {
           >
             <h3 className="text-2xl md:text-3xl font-semibold text-navy-blue mb-6">Trusted By</h3>
             <div className="flex justify-center items-center">
-              <a href="https://dayos-24.vercel.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+              <a href="https://dayos-24.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
                 <Image
                   src="/dayos.png"
                   alt="Dayos"
