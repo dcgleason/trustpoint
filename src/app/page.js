@@ -113,7 +113,7 @@ export default function TrustpointConsulting() {
           className="mb-20 md:mb-40"
           id="services"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Our AI-Powered Services</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Potential, bespoke AI-Powered Solutions</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Agency Relationship Builder</h3>
