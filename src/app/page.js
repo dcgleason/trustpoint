@@ -88,7 +88,7 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock results with AI</h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock unrealized results with AI</h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Expert talent. Just for start-ups.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Speak with an AI expert
@@ -99,26 +99,26 @@ export default function AIConsultancyLandingPage() {
           </div>
         </motion.header>
 
-          {/* New Past Clients Section */}
-          <motion.section
-            initial="hidden"
-            animate="visible"
-            variants={fadeIn}
-            className="mb-12 md:mb-20 w-full"
-          >
-            <h3 className="text-2xl md:text-3xl font-semibold text-navy-blue mb-6">Trusted By</h3>
-            <div className="flex justify-center items-center">
-              <a href="https://dayos-24.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
-                <Image
-                  src="/dayos.png"
-                  alt="Dayos"
-                  width={150}
-                  height={50}
-                  className="object-contain"
-                />
-              </a>
-            </div>
-          </motion.section>
+                {/* New Past Clients Section */}
+        <motion.section
+          initial="hidden"
+          animate="visible"
+          variants={fadeIn}
+          className="mb-12 md:mb-20 w-full flex flex-col items-center"
+        >
+          <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8">Trusted By</h3>
+          <div className="flex justify-center items-center">
+            <a href="https://dayos-24.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+              <Image
+                src="/dayos.png"
+                alt="Dayos"
+                width={200}
+                height={67}
+                className="object-contain"
+              />
+            </a>
+          </div>
+        </motion.section>
 
         <motion.section
           initial="hidden"
