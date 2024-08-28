@@ -219,7 +219,7 @@ export default function AIConsultancyLandingPage() {
           className="mb-20 md:mb-40"
           id="contact"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Get in touch</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Take the first step</h2>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
             <div className="mb-4">
               <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
@@ -255,7 +255,7 @@ export default function AIConsultancyLandingPage() {
               ></textarea>
             </div>
             <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl">
-              Take the first step
+              Submit to connect
             </button>
           </form>
         </motion.section>
