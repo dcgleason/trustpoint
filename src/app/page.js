@@ -109,7 +109,7 @@ export default function AIConsultancyLandingPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we can do for you</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We specialize in integrating cutting-edge AI solutions into your existing processes, helping you stay ahead in today&apos;s competitive landscape.
+                We specialize in integrating cutting-edge AI solutions into your existing processes, and do whatever we can to help you achieve results quickly.
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
