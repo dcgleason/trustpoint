@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Trustpoint Consulting | AI solutions for start-ups and small businesses",
-  description: "Unlock your data's full potential with Trustpoint Consulting. We deliver AI-powered solutions for start-ups and SMB's.",
+  title: "Trustpoint Consulting | AI sherpas for AI journey",
+  description: "Unlock unrealized ROI with Trustpoint Consulting and AI. We deliver AI-powered solutions for start-ups and SMB's...kinda like your own personal 'AI sherpas' for your AI journey.",
 };
 
 export default function RootLayout({ children }) {
