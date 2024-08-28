@@ -58,7 +58,7 @@ export default function AIConsultancyLandingPage() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint Consulting Group LLC - Integrate AI into Your Processes</title>
+        <title>Trustpoint Consulting - Integrate AI into Your Processes</title>
         <meta name="description" content="Empower your business with cutting-edge AI solutions. Expert consulting in RAG, LLM fine-tuning, and data processing optimization." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,7 +66,7 @@ export default function AIConsultancyLandingPage() {
 
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">Trustpoint Consulting Group LLC</div>
+          <div className="text-2xl font-bold">Trustpoint Consulting</div>
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               <Menu size={24} />
