@@ -158,7 +158,7 @@ export default function AIConsultancyLandingPage() {
           </div>
         </motion.section>
 
-              {/* New "Our talent comes from" Section */}
+        {/* New "Our talent comes from" Section */}
               <motion.section
                 initial="hidden"
                 animate="visible"
