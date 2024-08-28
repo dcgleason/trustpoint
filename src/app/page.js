@@ -106,7 +106,7 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="mb-12 md:mb-20 w-full flex flex-col items-center"
         >
-            <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Trusted By</h3>
+            <h3 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 w-full text-center">Trusted by</h3>
             <div className="flex justify-center items-center">
             <a href="https://dayos-24.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
               <Image
@@ -139,7 +139,7 @@ export default function AIConsultancyLandingPage() {
               </a>
             </div>
             <div className="bg-navy-blue text-white p-6 md:p-8 rounded-lg shadow-xl mt-8 md:mt-0">
-              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI Expertise</h3>
+              <h3 className="text-2xl md:text-3xl font-semibold mb-6">Our AI expertise</h3>
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Database className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
