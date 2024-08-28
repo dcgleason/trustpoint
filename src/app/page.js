@@ -98,6 +98,27 @@ export default function AIConsultancyLandingPage() {
           </div>
         </motion.header>
 
+          {/* New Past Clients Section */}
+          <motion.section
+            initial="hidden"
+            animate="visible"
+            variants={fadeIn}
+            className="mb-12 md:mb-20 w-full"
+          >
+            <h3 className="text-2xl md:text-3xl font-semibold text-navy-blue mb-6">Trusted By</h3>
+            <div className="flex justify-center items-center">
+              <a href="https://dayos-24.vercel.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-80 transition-opacity">
+                <Image
+                  src="/dayos.png"
+                  alt="Dayos"
+                  width={150}
+                  height={50}
+                  className="object-contain"
+                />
+              </a>
+            </div>
+          </motion.section>
+
         <motion.section
           initial="hidden"
           animate="visible"
