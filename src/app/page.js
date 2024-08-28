@@ -88,10 +88,10 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Unlock unrealized results with our AI experts</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Top talent. Just for start-ups.</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Partner with trusted AI technical experts.</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Top talent. Specialized for start-ups and SMBs.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Speak with an AI expert
+            Book an intro
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
@@ -219,7 +219,7 @@ export default function AIConsultancyLandingPage() {
           className="mb-20 md:mb-40"
           id="contact"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Book an intro</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Get in touch</h2>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
             <div className="mb-4">
               <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
@@ -255,7 +255,7 @@ export default function AIConsultancyLandingPage() {
               ></textarea>
             </div>
             <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl">
-              Submit
+              Submit and we&apos;ll be in touch
             </button>
           </form>
         </motion.section>
