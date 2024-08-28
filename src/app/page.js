@@ -91,7 +91,7 @@ export default function AIConsultancyLandingPage() {
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Sherpas for your AI implementation. </h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Top talent. Specialized in start-ups and SMBs.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Book an intro
+            Take the first step
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
@@ -219,7 +219,7 @@ export default function AIConsultancyLandingPage() {
           className="mb-20 md:mb-40"
           id="contact"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Take the first step</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Take the first step & get in touch</h2>
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
             <div className="mb-4">
               <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
