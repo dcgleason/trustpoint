@@ -11,13 +11,34 @@ export default function AIConsultancyLandingPage() {
   const [message, setMessage] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', { name, email, message });
-    setName('');
-    setEmail('');
-    setMessage('');
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, message }),
+      });
+
+      if (response.ok) {
+        console.log('Form submitted successfully');
+        // Reset form fields
+        setName('');
+        setEmail('');
+        setMessage('');
+        // You can add a success message or redirect here
+      } else {
+        console.error('Form submission failed');
+        // You can add an error message here
+      }
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      // You can add an error message here
+    }
   };
+
 
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
