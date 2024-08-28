@@ -4,12 +4,16 @@ import { useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { ArrowRight, Code, Database, Brain, ChevronDown, Layers, Menu } from 'lucide-react';
+import Modal from '../app/components/Modal'; 
 
 export default function AIConsultancyLandingPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState('');
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,21 +28,27 @@ export default function AIConsultancyLandingPage() {
 
       if (response.ok) {
         console.log('Form submitted successfully');
-        // Reset form fields
         setName('');
         setEmail('');
         setMessage('');
-        // You can add a success message or redirect here
+        setModalMessage('We will be in touch');
+        setIsSuccess(true);
       } else {
         console.error('Form submission failed');
-        // You can add an error message here
+        setModalMessage('Something went wrong, bear with us');
+        setIsSuccess(false);
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      // You can add an error message here
+      setModalMessage('Something went wrong, bear with us');
+      setIsSuccess(false);
     }
+    setIsModalOpen(true);
   };
 
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
 
   const fadeIn = {
     hidden: { opacity: 0, y: 20 },
@@ -199,6 +209,12 @@ export default function AIConsultancyLandingPage() {
         </motion.section>
       </main>
 
+      <Modal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        message={modalMessage}
+        isSuccess={isSuccess}
+      />
       <footer className="bg-navy-blue text-white py-8 mt-20 relative z-10">
         <div className="container mx-auto px-4 text-center">
           <p>&copy; 2024 Trustpoint Consulting Group LLC. All rights reserved.</p>
