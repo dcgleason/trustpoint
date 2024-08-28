@@ -87,8 +87,8 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Integrate AI into your business processes</h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Unlock AI-driven results with our expert consulting and implementation services</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Leverage AI to unlock new results for your business</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Expert talent. No fluff / BS.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Speak with an AI expert
             <ArrowRight className="ml-2" />
@@ -107,7 +107,7 @@ export default function AIConsultancyLandingPage() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Leverage AI to unlock results for your business</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we can do for you</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
                 We specialize in integrating cutting-edge AI solutions into your existing processes, helping you stay ahead in today&apos;s competitive landscape.
               </p>
@@ -136,14 +136,14 @@ export default function AIConsultancyLandingPage() {
           </div>
         </motion.section>
 
-        <motion.section
+        {/* <motion.section
           initial="hidden"
           animate="visible"
           variants={fadeIn}
           className="mb-20 md:mb-40"
           id="services"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">What we can do for you</h2>
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center"></h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">RAG + Vctor DB tntegration</h3>
@@ -158,7 +158,7 @@ export default function AIConsultancyLandingPage() {
               <p className="text-navy-blue">Streamline your data processing pipelines to maximize the performance of your AI and LLM systems.</p>
             </div>
           </div>
-        </motion.section>
+        </motion.section> */}
 
         <motion.section
           initial="hidden"
