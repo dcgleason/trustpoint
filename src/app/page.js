@@ -129,7 +129,7 @@ export default function AIConsultancyLandingPage() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we do for our clients:</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Our collective zone of genuis:</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
                 We are great at helping companies build AI tech stacks that get the most bang for your buck - measurable results with low AI spend. Our experts can help you with:
               </p>
