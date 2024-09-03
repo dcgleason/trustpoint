@@ -143,14 +143,14 @@ export default function AIConsultancyLandingPage() {
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Database className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">RAG and vector database integration</span>
+                  <span className="text-base md:text-lg">RAG and vector database integrations</span>
                 </li>
                 <li className="flex items-start">
                   <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
                   <span className="text-base md:text-lg">LLM fine-tuning and custom SLM generation</span>
                 </li>
                 <li className="flex items-start">
-                  <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
+                  <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:-8 md:h-8" />
                   <span className="text-base md:text-lg">Data processing & optimization for LLMs </span>
                 </li>
               </ul>
