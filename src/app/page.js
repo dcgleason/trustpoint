@@ -131,7 +131,7 @@ export default function AIConsultancyLandingPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we can do for you</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We specialize in integrating cutting-edge AI solutions into your existing tech stack to fuel business growth. Our experts (AI &quot;sherpas&quot;) will help you with:
+                We are great at helping you build AI tech stacks that gets the bang for your buck. Our experts (AI &quot;sherpas&quot;) will help you with:
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
