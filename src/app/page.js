@@ -131,7 +131,7 @@ export default function AIConsultancyLandingPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Our zone of genius:</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We are great at helping companies get clarity on the AI tech stack that fits their needs, optimizing for increased return on your investment. Our AI experts can help you with:
+                We are great at helping companies get clarity on the AI tech stack that fits their needs, optimizing for increased return on investment. Our AI experts can help you with:
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
