@@ -88,7 +88,7 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Build cost-effective and high-ROI AI for your start-up. Without the learning curve. </h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Build cost-effective, high ROI AI systems for your start-up. Without the learning curve. </h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">Flat, hourly rates. Seasoned technical talent. Specialized in start-ups and SMBs.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Take the first step
