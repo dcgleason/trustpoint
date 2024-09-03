@@ -59,7 +59,7 @@ export default function AIConsultancyLandingPage() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint Consulting Group - Integrate AI into your processes</title>
+        <title>Trustpoint Consulting Group - Your AI Advantage Starts Here</title>
         <meta name="description" content="Empower your business with cutting-edge AI solutions. Expert consulting in RAG, LLM fine-tuning, and data processing optimization." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -88,8 +88,8 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Sherpas for your AI implementation journey. </h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Top technical talent. Specialized in start-ups and SMBs.</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Your AI Advantage Starts Here: Expert Guidance for Startups and SMBs </h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Seasoned technical talent. Specialized in start-ups and SMBs.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Take the first step
             <ArrowRight className="ml-2" />
@@ -129,9 +129,9 @@ export default function AIConsultancyLandingPage() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we can do for you</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">What we do for our clients:</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We are great at helping you build AI tech stacks that gets the bang for your buck. Our experts (AI &quot;sherpas&quot;) will help you with:
+                We are great at helping companies build AI tech stacks that get the most bang for your buck - measurable results with low AI spend. Our experts can help you with:
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
@@ -147,7 +147,7 @@ export default function AIConsultancyLandingPage() {
                 </li>
                 <li className="flex items-start">
                   <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">LLM fine-tuning</span>
+                  <span className="text-base md:text-lg">LLM fine-tuning and custom SLM generation</span>
                 </li>
                 <li className="flex items-start">
                   <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
