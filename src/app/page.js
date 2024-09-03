@@ -88,8 +88,8 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Expert guidance for your startup or SMB </h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat rates. Seasoned technical talent. Specialized in start-ups and SMBs.</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Your own personal AI implementation sherpa. </h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Flat hourly rates. Seasoned technical talent. Specialized in start-ups and SMBs.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Take the first step
             <ArrowRight className="ml-2" />
@@ -129,9 +129,9 @@ export default function AIConsultancyLandingPage() {
         >
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Our collective zone of genuis:</h2>
+              <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Our zone of genius:</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-                We are great at helping companies build AI tech stacks that get the most bang for your buck - measurable results with low AI spend. Our experts can help you with:
+                We are great at helping companies build AI tech stacks that get the most bang for your buck - measurable results with low AI spend. Our AI sherpas (experts) can help you with:
               </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
