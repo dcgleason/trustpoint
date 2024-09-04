@@ -103,7 +103,7 @@ export default function AIConsultancyLandingPage() {
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-            Build cost-effective, high ROI AI systems. Without the learning curve.
+            Build high ROI AI tech stacks. Without the learning curve.
           </h1>
           <p className="text-xl md:text-3xl text-light-blue mb-8">
             Flat, hourly rates. Seasoned technical talent. Specialized in start-ups and SMBs.
