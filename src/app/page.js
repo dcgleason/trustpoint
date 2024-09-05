@@ -131,8 +131,7 @@ export default function AIConsultancyLandingPage() {
             <div>
               <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-6">Our zone of genius:</h2>
               <p className="text-lg md:text-xl text-navy-blue mb-6">
-              We specialize in elevating your ServiceNow platform with cutting-edge AI capabilities, optimizing for increased efficiency and ROI. Our AI experts can help you with:
-              </p>
+              We specialize in elevating your ServiceNow platform with cutting-edge AI capabilities, optimizing for increased efficiency and ROI. Our AI experts can help you:              </p>
               <a href="#contact" className="inline-flex items-center text-light-blue hover:text-navy-blue transition-colors">
                 <span className="text-lg md:text-xl font-semibold">Learn more</span>
                 <ArrowRight className="ml-2" />
@@ -143,15 +142,15 @@ export default function AIConsultancyLandingPage() {
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <Database className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Now Intelligence implementation and optimization</span>
+                  <span className="text-base md:text-lg">Implement and optimize Now Intelligence across your workflows</span>
                 </li>
                 <li className="flex items-start">
                   <Brain className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:w-8 md:h-8" />
-                  <span className="text-base md:text-lg">Predictive Intelligence and Machine Learning models</span>
+                  <span className="text-base md:text-lg">Develop custom predictive models using ServiceNow's machine learning capabilities</span>
                 </li>
                 <li className="flex items-start">
                   <Layers className="text-light-blue mr-4 flex-shrink-0 w-6 h-6 md:-8 md:h-8" />
-                  <span className="text-base md:text-lg">AI-powered workflow automation and optimization</span>
+                  <span className="text-base md:text-lg">Design AI-powered automations to streamline processes</span>
                 </li>
               </ul>
             </div>
