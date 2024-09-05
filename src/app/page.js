@@ -67,7 +67,7 @@ export default function AIConsultancyLandingPage() {
 
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">Trustpoint Consulting Group</div>
+          <div className="text-2xl font-bold">Trustpoint Consulting Group LLC</div>
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               <Menu size={24} />
