@@ -88,8 +88,8 @@ export default function AIConsultancyLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Supercharge Your ServiceNow with AI-Powered Intelligence </h1>
-          <p className="text-xl md:text-3xl text-light-blue mb-8">Future-proof your workflows. Unlock predictive insights. Transform your business.</p>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Supercharge your ServiceNow solutions with AI</h1>
+          <p className="text-xl md:text-3xl text-light-blue mb-8">Future-proof your workflows & transform your business with our seasoned industry experts.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Take the first step
             <ArrowRight className="ml-2" />
