@@ -116,7 +116,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">2x Conversion Boost</span>
-                      <p className="text-gray-700">Double your website conversion rates with an custom-built AI chatbot. </p>
+                      <p className="text-gray-700">Double your website conversion rates within 30 days or less with one of our custom-built AI chatbots. </p>
                     </div>
                   </li>
                   <li className="flex items-start">
