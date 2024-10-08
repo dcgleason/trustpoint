@@ -66,7 +66,7 @@ export default function TrustpointConsultingLandingPage() {
 
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">Trustpoint Consulting | AI to market your business</div>
+          <div className="text-2xl font-bold">Trustpoint Consulting</div>
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               <Menu size={24} />
@@ -89,7 +89,7 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">You can keep chasing the latest AI shiny object...or you can catch it. </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI chatbots trained on <span className="underline">your</span> business data. Custom-built for <span className="underline">your</span> business. Free until you see results.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI chatbots trained on <span className="underline">your</span> business data. Custom-built. Free until you see results.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Talk to an expert
             <ArrowRight className="ml-2" />
