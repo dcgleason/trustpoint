@@ -142,7 +142,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Your Data, Informed Conversations</span>
-                      <p className="text-gray-700">Our AI is trained on your company's unique knowledge and product offerings, ensuring every customer interaction is relevant and impactful.</p>
+                      <p className="text-gray-700">Our AI is trained on your company&apos;s unique knowledge and product offerings, ensuring every customer interaction is relevant and impactful.</p>
                     </div>
                   </li>
                 </ul>
@@ -168,7 +168,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <DollarSign className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">No upfront cost</h3>
-              <p className="text-navy-blue">Pay nothing until we've successfully doubled your conversion rates.</p>
+              <p className="text-navy-blue">Pay nothing until we&apos;ve successfully doubled your conversion rates.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
@@ -178,7 +178,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">No long-term contracts</h3>
-              <p className="text-navy-blue">We're confident in our ability to deliver results, so we don&apos;t require any long-term contracts. Pay month-to-month (after we deliver results).</p>
+              <p className="text-navy-blue">We&apos;re confident in our ability to deliver results, so we don&apos;t require any long-term contracts. Pay month-to-month (after we deliver results).</p>
             </div>
           </div>
         </motion.section>
