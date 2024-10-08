@@ -58,7 +58,7 @@ export default function TrustpointConsultingLandingPage() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint Consulting | AI Implemenations for Startups</title>
+        <title>Trustpoint Consulting | AI to market your business</title>
         <meta name="description" content="Cut through the noise and unlock unrealized ROI with Trustpoint Consulting and AI. We deliver AI-powered solutions for start-ups and SMB's...kinda like your own personal 'AI sherpas' for your AI journey." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -66,7 +66,7 @@ export default function TrustpointConsultingLandingPage() {
 
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">Trustpoint Consulting | AI Chatbot Implementations for Startups</div>
+          <div className="text-2xl font-bold">Trustpoint Consulting | AI to market your business</div>
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               <Menu size={24} />
@@ -178,7 +178,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">No long-term contracts</h3>
-              <p className="text-navy-blue">We're confident in our ability to deliver results, so we don't require any long-term contracts. Pay month-to-month (after we deliver results).</p>
+              <p className="text-navy-blue">We're confident in our ability to deliver results, so we don&apos;t require any long-term contracts. Pay month-to-month (after we deliver results).</p>
             </div>
           </div>
         </motion.section>
