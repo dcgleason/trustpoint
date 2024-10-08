@@ -135,7 +135,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Tailored AI Chatbot</span>
-                      <p className="text-gray-700">Seamlessly integrate a custom AI assistant into your landing page or storefront, fully connected with your existing CRM and tech stack.</p>
+                      <p className="text-gray-700">Seamlessly integrate an AI chatbot, connected to your existing CRM and tech stack, trained on your data, into your landing page or storefront.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
