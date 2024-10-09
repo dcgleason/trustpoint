@@ -89,7 +89,7 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Marketing AI trained on <span className="underline">your</span> business data. Custom-built. Free until you see results.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Marketing AI trained on <span className="underline">your</span> data. Custom-built foryour business. Free until you see results.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Let&apos;s chat
             <ArrowRight className="ml-2" />
