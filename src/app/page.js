@@ -133,7 +133,7 @@ export default function TrustpointConsultingLandingPage() {
           id="offer"
         >
           <div className="container mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-navy-blue mb-12 text-center">Our AI is built for <span className="underline">ROI</span></h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-navy-blue mb-12 text-center">AI built for <span className="underline">ROI</span></h2>
             <div className="grid md:grid-cols-2 gap-16 items-start">
               <div>
                 <h3 className="text-3xl font-bold text-navy-blue mb-8">We Promise Results:</h3>
