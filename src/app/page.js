@@ -209,7 +209,7 @@ export default function TrustpointConsultingLandingPage() {
           </div>
         </motion.section>
 
-        <motion.section
+        {/* <motion.section
           initial="hidden"
           animate="visible"
           variants={fadeIn}
@@ -255,7 +255,7 @@ export default function TrustpointConsultingLandingPage() {
               Talk to an expert
             </a>
           </form>
-        </motion.section>
+        </motion.section> */}
       </main>
 
       <Modal
