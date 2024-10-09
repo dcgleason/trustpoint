@@ -91,7 +91,7 @@ export default function TrustpointConsultingLandingPage() {
           <div className="mb-8"></div>
           <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI systems trained on <span className="underline">your</span> business data. Free we meaningfully level-up your marketing.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Let's chat
+            Let&apos;s chat
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
@@ -176,7 +176,7 @@ export default function TrustpointConsultingLandingPage() {
             </div>
             <div className="mt-16 text-center">
               <a href="#contact" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
-                Let's Chat
+                Let&apos;s Chat
               </a>
             </div>
           </div>
