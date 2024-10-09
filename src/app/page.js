@@ -203,8 +203,8 @@ export default function TrustpointConsultingLandingPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">No long-term contracts</h3>
-              <p className="text-navy-blue">We&apos;re confident in our ability to deliver results, so we don&apos;t require any long-term contracts. Pay month-to-month (after we deliver results).</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Dedicated Technical Support</h3>
+              <p className="text-navy-blue">After we deliver results, we&apos;ll continue to support you with updates and improvements to your AI chatbot.</p>
             </div>
           </div>
         </motion.section>
