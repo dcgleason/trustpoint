@@ -90,7 +90,7 @@ export default function TrustpointConsultingLandingPage() {
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
           <div className="mb-8"></div>
           <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Marketing AI trained on <span className="underline">your</span> data. Custom-built foryour business. Free until you see results.</p>
-          <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
+          <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Let&apos;s chat
             <ArrowRight className="ml-2" />
           </a>
@@ -175,7 +175,7 @@ export default function TrustpointConsultingLandingPage() {
               </div>
             </div>
             <div className="mt-16 text-center">
-              <a href="#contact" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
+              <a href="https://calendly.com/danny-c-gleason/30min" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
                 Let&apos;s Chat
               </a>
             </div>
@@ -251,9 +251,9 @@ export default function TrustpointConsultingLandingPage() {
                 required
               ></textarea>
             </div>
-            <button type="submit" className="w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl">
+            <a href="https://calendly.com/danny-c-gleason/30min" className="block w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl text-center">
               Talk to an expert
-            </button>
+            </a>
           </form>
         </motion.section>
       </main>
