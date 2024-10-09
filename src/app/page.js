@@ -167,7 +167,7 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Your Data, Informed Conversations</span>
+                      <span className="text-xl font-semibold block mb-2">Your Data, Results-Oriented Conversations</span>
                       <p className="text-gray-700">Our AI is trained on your company&apos;s unique knowledge and product offerings, ensuring every customer interaction is relevant and impactful.</p>
                     </div>
                   </li>
