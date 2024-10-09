@@ -87,9 +87,9 @@ export default function TrustpointConsultingLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">You can keep chasing the latest marketing AI shiny object...or you can catch it. </h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI systems trained on <span className="underline">your</span> business data. Free until we deliver results you&apos;d pay for.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Marketing AI trained on <span className="underline">your</span> business data. Free until our tech starts printing you money.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Let&apos;s chat
             <ArrowRight className="ml-2" />
