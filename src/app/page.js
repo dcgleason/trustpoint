@@ -176,7 +176,7 @@ export default function TrustpointConsultingLandingPage() {
             </div>
             <div className="mt-16 text-center">
               <a href="#contact" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
-                Start Your AI Revolution Today
+                Let's Chat
               </a>
             </div>
           </div>
