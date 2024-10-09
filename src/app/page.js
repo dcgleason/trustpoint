@@ -268,7 +268,7 @@ export default function TrustpointConsultingLandingPage() {
       <footer className="bg-navy-blue text-white py-8 mt-20 relative z-10">
         <div className="container mx-auto px-4 text-center">
           <p>&copy; 2024 Trustpoint Consulting. All rights reserved.</p>
-          <p className="mt-2">Exclusive offer for Series B-D SaaS companies aiming for rapid growth.</p>
+          <p className="mt-2"></p>
         </div>
       </footer>
     </div>
