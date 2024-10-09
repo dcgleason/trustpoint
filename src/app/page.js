@@ -5,7 +5,7 @@ import Head from 'next/head';
 import { motion } from 'framer-motion';
 import { ArrowRight, Calendar, Code, Smartphone, ChevronDown, Menu, CheckCircle, DollarSign, Clock, Zap } from 'lucide-react';
 import Modal from '../app/components/Modal';
-
+import Image from 'next/image';
 export default function TrustpointConsultingLandingPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -89,7 +89,7 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">You can keep chasing the latest AI shiny object...or you can catch it. </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI systems trained on <span className="underline">your</span> business data. Custom-built for increasing conversion rates. Free until you see results.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI systems trained on <span className="underline">your</span> business data. Custom-built for more effective marketing. Free until you see results.</p>
           <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Talk to an expert
             <ArrowRight className="ml-2" />
@@ -98,6 +98,32 @@ export default function TrustpointConsultingLandingPage() {
             <ChevronDown size={48} className="text-navy-blue" />
           </div>
         </motion.header>
+
+        <motion.section
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="py-16 bg-gray-50"
+        >
+          <div className="container mx-auto px-4">
+            <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-12 text-center">
+              Trusted by
+            </h2>
+            <div className="flex justify-center">
+              <div className="w-48 h-48 relative">
+                <a href="https://www.dayos.ai" target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/dayos-transparent.png"
+                    alt="Dayos Logo"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </a>
+                
+              </div>
+            </div>
+          </div>
+        </motion.section>
 
         <motion.section
           initial="hidden"
