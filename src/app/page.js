@@ -75,7 +75,7 @@ export default function TrustpointConsultingLandingPage() {
           <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
             <a href="#offer" className="block md:inline hover:text-light-blue transition-colors py-2">Offer</a>
             <a href="#benefits" className="block md:inline hover:text-light-blue transition-colors py-2">Benefits</a>
-            <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
+            {/* <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a> */}
           </div>
         </div>
       </nav>
@@ -89,7 +89,7 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI models trained on <span className="underline">your</span> data. Custom-built AI tools to level-up your marketing. Free until you see results.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI models trained on <span className="underline">your</span> data. Custom-built marketing AI tools. Free until you see results.</p>
           <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Let&apos;s chat
             <ArrowRight className="ml-2" />
