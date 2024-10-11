@@ -160,15 +160,15 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Tailored AI Chatbot</span>
-                      <p className="text-gray-700">Seamlessly integrate an AI chatbot, connected to your existing CRM and tech stack, trained on your data, into your landing page or storefront.</p>
+                      <span className="text-xl font-semibold block mb-2">Custom-build AI Chatbot & AI Agents that you own & control</span>
+                      <p className="text-gray-700">Seamlessly integrate an AI chatbot & AI agents, trained on your data, with your existing tech stack on your landing page or online storefront and have it automate routine tasks such as booking appointments, processing orders, and handling FAQs for you.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Your Data, Results-Oriented Conversations</span>
-                      <p className="text-gray-700">Our AI is trained on your company&apos;s unique knowledge and product offerings, ensuring every customer interaction is relevant and impactful.</p>
+                      <span className="text-xl font-semibold block mb-2">Your Data, More Impactful Conversations</span>
+                      <p className="text-gray-700">What becomes your AI chatbot & AI agents are trained on your company&apos;s unique knowledge and product offerings, so the AI is completely personlized to your business...creating relevant and impactful chat experiences for your prospects and customers.</p>
                     </div>
                   </li>
                 </ul>
