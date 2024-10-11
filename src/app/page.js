@@ -228,19 +228,19 @@ export default function TrustpointConsultingLandingPage() {
             {[
               {
                 question: "How do you handle data privacy?",
-                answer: "We ideally keep your data all within your existing systems, but if we need to another database will we will make sure it's secure and fits within your existing tech infrastructure. If you prefer, we can host your own LLM models wihin your own infrastructure as well."
+                answer: "We connect to data sources mainly via REST API, direct database connections, and/or batch imports, and ensure secure, encrypted data handling throughout. If we need to introduce a new database to your infrastructure, we will make sure it is integrated appropriately within your existing tech stack. We can also host your own LLM models wihin your own infrastructure, to keep data in-house."
               },
               {
                 question: "What kind data can you use to train the AI chatbot & AI agents?",
-                answer: "We can use any data you have in your existing systems, structured and unstructured data, which includes text-based documents, emails, and tabular data. Audio / video data is also possible via transcription."
+                answer: "We can use any data you have in your existing systems, structured and unstructured data. This includes text-based documents, emails, and tabular data. Audio / video data is also possible to ingest via transcription."
               },
               {
                 question: "How quickly can you have the AI chatbot & AI agents ready?",
-                answer: "This depends on your requirements. For simple use cases, we can have the AI chatbot & AI agents ready for your production environment as little as 2 weeks. For more complex use cases, it could take longer."
+                answer: "This depends on your requirements. For simple use cases, we can have the AI chatbot & AI agents ready for your production environment as little as 2-3 weeks. For more complex use cases, it could take longer."
               },
               {
                 question: "What kind of support do you offer?",
-                answer: "We offer both training your technical team to support the AI chatbot & AI agents, and / or we can offer ongoing technical support and feature enhancements for you. After the initial implemenation, the code is yours, so if you plan on supporting the AI chatbot & AI agents internally, we'll train your team how to do so and provide full documentation and support."
+                answer: "We offer both training your technical team to support the AI chatbot & AI agents, and / or we can offer ongoing technical support and feature enhancements for you."
               },
               {
                 question: "What are the costs?",
