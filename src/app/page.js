@@ -15,6 +15,12 @@ export default function TrustpointConsultingLandingPage() {
   const [modalMessage, setModalMessage] = useState('');
   const [isSuccess, setIsSuccess] = useState(false);
 
+  const [openFAQ, setOpenFAQ] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setOpenFAQ(openFAQ === index ? null : index);
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
