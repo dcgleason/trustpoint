@@ -226,7 +226,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Technical Training & Support</h3>
-              <p className="text-navy-blue">We can train your team to maintain the AI chatbot or provide ongoing support and feature enhancements.</p>
+              <p className="text-navy-blue">We maintain the AI chatbot, providing ongoing support and feature enhancements as needed and / or requested.</p>
             </div>
           </div>
         </motion.section>
@@ -255,7 +255,7 @@ export default function TrustpointConsultingLandingPage() {
               },
               {
                 question: "What kind of support do you offer?",
-                answer: "We offer both training for your technical team to support the AI chatbot & AI agents, and / or we can offer ongoing technical support and feature enhancements for you."
+                answer: "We offer ongoing technical support, training on how and where to utilize the agents and chatbot effectively, and feature enhancements as needed and / or requested."
               },
               {
                 question: "What are the costs?",
