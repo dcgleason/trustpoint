@@ -201,7 +201,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <DollarSign className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Risk-Free, Money-Back Guarantee</h3>
-              <p className="text-navy-blue">Our monthly fee is fully refundable or cancelable anytime if you&apos;re unsatisfied. We&apos;re confident in delivering results you&apos;ll love.</p>
+              <p className="text-navy-blue">Our monthly fee is fully refundable or cancelable anytime if you&apos;re unsatisfied. We&apos;re confident we&apos;ll deliver results for your business you&apos;ll love.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
