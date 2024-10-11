@@ -228,11 +228,11 @@ export default function TrustpointConsultingLandingPage() {
             {[
               {
                 question: "How do you handle data privacy?",
-                answer: "We ideally keep your data in your existing systems, if necessary we recommend and implement a secure data pipeline, which often will include encryption at rest and in transit, and if you prefer can host your own LLM models wihin your own infrastructure."
+                answer: "We ideally keep your data in your existing systems, but either way will implement a secure data pipeline, which we recommend includes encryption at rest and in transit. If you prefer, we can host your own LLM models wihin your own infrastructure as well."
               },
               {
                 question: "What kind data can you use to train the AI chatbot & AI agents?",
-                answer: "We can use any data you have in your existing systems, including documents, emails, and more -- structured (table data) or unstructured (free-form text, PDFs, etc)."
+                answer: "We can use any data you have in your existing systems, structured and unstructured data, which includes text-based documents, emails, and tabular data. Audio / video data is also possible via transcription."
               },
               {
                 question: "How quickly can you have the AI chatbot & AI agents ready?",
