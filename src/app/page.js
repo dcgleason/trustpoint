@@ -158,7 +158,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2 relative group">
-                        Increase qualified lead bookings, reduce cost per interaction (CPI)
+                        Increase qualified lead bookings, reduce your cost per interaction (CPI)
                         <span className="absolute top-0 right-0 text-sm text-gray-500 cursor-help rounded-full border border-gray-500 w-5 h-5 flex items-center justify-center">i</span>
                         <span className="invisible group-hover:visible absolute z-10 bg-white border border-gray-200 rounded p-2 text-sm text-gray-700 shadow-lg w-64 left-1/2 transform -translate-x-1/2 mt-2">
                           CPI provides a quantitative measure of the average cost incurred for each customer interaction. This metric is valuable for customer success teams as it helps evaluate the efficiency and effectiveness of a customer success operation.
@@ -170,7 +170,7 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Risk-Free Guarantee</span>
+                      <span className="text-xl font-semibold block mb-2">Risk-free guarantee</span>
                       <p className="text-gray-700">Our monthly fee is fully refundable or cancelable at any point if you&apos;re unsatisfied. We&apos;re confident we&apos; deliver results for your business you&apos;ll love.</p>
                     </div>
                   </li>
@@ -182,14 +182,14 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents</span>
+                      <span className="text-xl font-semibold block mb-2">Custom-built AI chatbot & AI agents</span>
                       <p className="text-gray-700">We build and implement AI chatbots trained on your data within your tech stack, and ensure secure, encrypted data handling. We can also host LLMs in your cloud to keep data in-house.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Your Data, More Impactful Chat Experiences</span>
+                      <span className="text-xl font-semibold block mb-2">Your data, more impactful chat experiences</span>
                       <p className="text-gray-700">Our AI chatbots and agents are trained on your company&apos;s knowledge and products, which deliver relevant, impactful experiences that drive results that directly effect your bottom line.</p>
                     </div>
                   </li>
