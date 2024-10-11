@@ -150,9 +150,9 @@ export default function TrustpointConsultingLandingPage() {
                     <div>
                       <span className="text-xl font-semibold block mb-2 relative group">
                         Increase qualified lead bookings, reduce cost per interaction (CPI)
-                        <span className="absolute top-0 right-0 text-sm text-gray-500 cursor-help">i</span>
+                        <span className="absolute top-0 right-0 text-sm text-gray-500 cursor-help rounded-full border border-gray-500 w-5 h-5 flex items-center justify-center">i</span>
                         <span className="invisible group-hover:visible absolute z-10 bg-white border border-gray-200 rounded p-2 text-sm text-gray-700 shadow-lg w-64 left-1/2 transform -translate-x-1/2 mt-2">
-                          CPI provides a quantitative measure of the average cost incurred for each customer interaction. This metric is valuable for customer success teams as it helps evaluate the efficiency and effectiveness of an customer success operation.
+                          CPI provides a quantitative measure of the average cost incurred for each customer interaction. This metric is valuable for customer success teams as it helps evaluate the efficiency and effectiveness of a customer success operation.
                         </span>
                       </span>
                       <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify & book qualified leads, provide tailored self-service support, and free up your team to focus on closing deals and delighting customers.</p>
