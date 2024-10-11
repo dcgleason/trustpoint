@@ -98,7 +98,7 @@ export default function TrustpointConsultingLandingPage() {
           <div className="mb-8"></div>
           <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI sales & customer service chatbots built on models trained on <span className="underline">your</span> data. Fast, custom implementations. Unconditional, money-back guarantee.</p>
           <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Let&apos;s chat
+            Get your free consultation
             <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
@@ -183,7 +183,7 @@ export default function TrustpointConsultingLandingPage() {
             </div>
             <div className="mt-16 text-center">
               <a href="https://calendly.com/danny-c-gleason/30min" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
-                Let&apos;s chat
+                Get your free consultation
               </a>
             </div>
           </div>
