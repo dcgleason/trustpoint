@@ -149,7 +149,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Increase lead quality, reduce churn</span>
-                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your company data, so they can qualify leads for your sales & customer service team, offer self-service support specifically tailored to your business (e.g. booking appointments, processing orders, etc.), and free up your people to focus more on closing deals and delighting customers.</p>
+                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your company data, so they can qualify leads for your sales & customer service team, offer self-service support specifically tailored to your business, automate routine tasks, and free up your people to focus more on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
