@@ -234,8 +234,7 @@ export default function TrustpointConsultingLandingPage() {
             {[
               {
                 question: "How do you handle data privacy?",
-                answer: "We connect to data sources mainly via REST API, direct database connections, and/or batch imports, and ensure secure, encrypted data handling throughout. If we need to introduce a new database to your infrastructure, we will make sure it is integrated appropriately within your existing tech stack. We can also host your own LLM models wihin your own infrastructure, to keep data in-house."
-              },
+                answer: "Data privacy is a top priority for us. For data transfers, we use standard encryption protocols (TLS/SSL) provided by reputable cloud services like AWS, Vercel, or Heroku. These providers handle most of the encryption for data at rest, typically using AES-256. While we configure security settings, ultimate control over the infrastructure lies with these cloud providers. We implement best practices for access controls and database security within the platforms we use. For clients requiring higher security, we can work with your IT team to deploy solutions on your own infrastructure. We're transparent about our reliance on third-party tools and continuously work to enhance our security practices as we grow."
               {
                 question: "What kind data can you use to train the AI chatbot & AI agents?",
                 answer: "We can use any data you have in your existing systems, structured and unstructured data. This includes text-based documents, emails, and tabular data. Audio / video data is also possible to ingest via transcription."
