@@ -149,7 +149,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Risk-Free Guarantee</span>
-                      <p className="text-gray-700">Get our monthly implementation and support fee refuned at any time if you aren't at any time satisfied. We&apos;re that confident in our ability to deliver measurable results quickly.</p>
+                      <p className="text-gray-700">Get our monthly implementation and support fee refuned at any time if you aren&apos;t at any time satisfied. We&apos;re that confident in our ability to deliver measurable results quickly.</p>
                     </div>
                   </li>
                 </ul>
@@ -194,7 +194,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <DollarSign className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Risk-Free Guarantee</h3>
-              <p className="text-navy-blue">Get our monthly implementation and support fee refuned at any time if you aren't at any time satisfied. </p>
+              <p className="text-navy-blue">Get our monthly implementation and support fee refuned at any time if you aren&apos;t at any time satisfied. </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
