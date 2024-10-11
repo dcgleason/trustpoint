@@ -252,12 +252,12 @@ export default function TrustpointConsultingLandingPage() {
                   className="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md border border-light-blue text-left"
                   onClick={() => toggleFAQ(index)}
                 >
-                  <span className="text-lg font-semibold text-navy-blue">Question {index}</span>
+                  <span className="text-lg font-semibold text-navy-blue">{item.question}</span>
                   <ChevronDown className={`w-5 h-5 text-navy-blue transition-transform duration-300 ${openFAQ === index ? 'transform rotate-180' : ''}`} />
                 </button>
                 {openFAQ === index && (
                   <div className="bg-white p-4 rounded-b-lg border-t border-light-blue">
-                    <p className="text-navy-blue">Answer {index}</p>
+                    <p className="text-navy-blue">{item.answer}</p>
                   </div>
                 )}
               </div>
