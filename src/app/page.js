@@ -148,8 +148,8 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Increase lead quality, reduce churn</span>
-                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify leads, provide tailored self-service support, automate routine tasks, and free up your team to focus on closing deals and delighting customers.</p>
+                      <span className="text-xl font-semibold block mb-2">Increase qualified lead bookings, reduce cost per interaction (CPI)</span>
+                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify & book qualified leads, provide tailored self-service support, and free up your team to focus on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -206,7 +206,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Custom-built AI Chatbot & AI Agents</h3>
-              <p className="text-navy-blue">Get a custom AI chatbot integrated with your CRM, trained on your company&apos;s knowledge to boost qualified lead bookings and reduce churn.</p> 
+              <p className="text-navy-blue">Get a custom AI chatbot integrated with your CRM, trained on your company&apos;s knowledge to boost qualified lead bookings and reduce cost per interaction (CPI).</p> 
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
