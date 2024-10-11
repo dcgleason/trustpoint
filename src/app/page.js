@@ -193,8 +193,8 @@ export default function TrustpointConsultingLandingPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <DollarSign className="text-light-blue mb-4 w-12 h-12" />
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">No upfront cost</h3>
-              <p className="text-navy-blue">Pay nothing until we deliver measurable results.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Risk-Free Guarantee</h3>
+              <p className="text-navy-blue">Get our monthly implementation and support fee refuned at any time if you aren't at any time satisfied. </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
@@ -203,8 +203,8 @@ export default function TrustpointConsultingLandingPage() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Dedicated Technical Support</h3>
-              <p className="text-navy-blue">After we deliver results, we&apos;ll continue to support you with updates and improvements to your AI chatbot.</p>
+              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Dedicated Technical Training</h3>
+              <p className="text-navy-blue">If you have a team, we&apos;ll train them on how to use your AI chatbot and AI agents.</p>
             </div>
           </div>
         </motion.section>
