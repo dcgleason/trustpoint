@@ -89,7 +89,7 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI marketing tools built on models trained on <span className="underline">your</span> data. Free until you see results.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI sales & customer service chatbots built on models trained on <span className="underline">your</span> data. Free until you see results.</p>
           <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Let&apos;s chat
             <ArrowRight className="ml-2" />
@@ -141,15 +141,15 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">2x Conversion Boost</span>
-                      <p className="text-gray-700">Double your website conversion rates within 30 days or less with one of our custom-built AI chatbots. </p>
+                      <span className="text-xl font-semibold block mb-2">Increase lead quality</span>
+                      <p className="text-gray-700">Our AI chatbots are trained on your data, so they can answer questions specific to your business and products, and even book appointments with the right people for you.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Risk-Free Guarantee</span>
-                      <p className="text-gray-700">You pay nothing until we deliver the promised 2x increase in conversions.</p>
+                      <p className="text-gray-700">You pay nothing until we deliver measurable results.</p>
                     </div>
                   </li>
                 </ul>
@@ -194,12 +194,12 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <DollarSign className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">No upfront cost</h3>
-              <p className="text-navy-blue">Pay nothing until we&apos;ve successfully doubled your conversion rates.</p>
+              <p className="text-navy-blue">Pay nothing until we deliver measurable results.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Custom-built AI Chatbot</h3>
-              <p className="text-navy-blue">Get a custom-built AI Chatbot, integrated with your existing CRM, trained it on your company and product knowledge, meant to drive results.</p> 
+              <p className="text-navy-blue">Get a custom-built AI Chatbot, integrated with your existing CRM, trained it on your company and product knowledge, meant to drive increased bookings of qualified leads.</p> 
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
