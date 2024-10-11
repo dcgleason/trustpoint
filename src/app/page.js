@@ -82,7 +82,7 @@ export default function TrustpointConsultingLandingPage() {
           <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
             <a href="#offer" className="block md:inline hover:text-light-blue transition-colors py-2">Offer</a>
             <a href="#benefits" className="block md:inline hover:text-light-blue transition-colors py-2">Benefits</a>
-            {/* <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a> */}
+            <a href="#faq" className="block md:inline hover:text-light-blue transition-colors py-2">FAQs</a>
           </div>
         </div>
       </nav>
