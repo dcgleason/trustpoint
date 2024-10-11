@@ -21,6 +21,7 @@ export default function TrustpointConsultingLandingPage() {
     setOpenFAQ(openFAQ === index ? null : index);
   };
 
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -224,7 +225,28 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Frequently Asked Questions</h2>
           <div className="max-w-3xl mx-auto">
-            {[1, 2, 3, 4, 5].map((index) => (
+            {[
+              {
+                question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+                answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc. Sed euismod, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+              },
+              {
+                question: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?",
+                answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+              },
+              {
+                question: "Excepteur sint occaecat cupidatat non proident?",
+                answer: "Sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              },
+              {
+                question: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit?",
+                answer: "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+              },
+              {
+                question: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?",
+                answer: "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+              }
+            ].map((item, index) => (
               <div key={index} className="mb-4">
                 <button
                   className="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md border border-light-blue text-left"
