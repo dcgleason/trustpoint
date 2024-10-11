@@ -161,7 +161,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents that you own & control</span>
-                      <p className="text-gray-700">We quickly integrate a custom-built AI chatbot (with AI agents) trained on your data, with your existing tech stack on your landing page or online storefront and have it automate routine tasks such as booking appointments, processing orders, and handling FAQs for you.</p>
+                      <p className="text-gray-700">We quickly integrate a custom-built AI chatbot (with AI agents) trained on your data with your existing tech stack. It lives on your website, in your CRM, and automates routine tasks such as booking appointments, processing orders, and handling FAQs for you.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
