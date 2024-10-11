@@ -73,7 +73,16 @@ export default function TrustpointConsultingLandingPage() {
 
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="text-2xl font-bold">Trustpoint Consulting</div>
+          <div className="flex items-center">
+            <Image
+              src="/favicon.ico"
+              alt="Trustpoint Consulting Logo"
+              width={32}
+              height={32}
+              className="mr-2"
+            />
+            <div className="text-2xl font-bold">Trustpoint Consulting</div>
+          </div>
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
               <Menu size={24} />
