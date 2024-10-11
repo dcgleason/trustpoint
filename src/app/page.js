@@ -149,14 +149,14 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Increase lead quality, reduce churn</span>
-                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your company data, so they can qualify leads for your sales & customer service team, offer self-service support specifically tailored to your business, automate routine tasks, and free up your people to focus more on closing deals and delighting customers.</p>
+                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify leads, provide tailored self-service support, automate routine tasks, and free up your team to focus on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Risk-Free Guarantee</span>
-                      <p className="text-gray-700">Our monthly implementation and support fee is refundable (no questions asked) or cancelable if you are at any time unsatisfied or want to cancel. We&apos;re that confident in our ability to deliver results you&apos;ll be happy with.</p>
+                      <p className="text-gray-700">Our monthly fee is fully refundable or cancelable anytime if you&apos;re unsatisfied. We&apos;re confident in delivering results you&apos;ll love.</p>
                     </div>
                   </li>
                 </ul>
@@ -168,14 +168,14 @@ export default function TrustpointConsultingLandingPage() {
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents</span>
-                      <p className="text-gray-700">We implement custom-built AI chatbots (with AI agents) trained on your data within your existing tech stack. Our implementations focus on secure data handling, and recommend that your data is encrypted at rest and in transit. We can also host LLMs in your cloud environment so that your data is kept in-house.</p>
+                      <p className="text-gray-700">We build and implement AI chatbots trained on your data within your tech stack, and ensure secure, encrypted data handling. We can also host LLMs in your cloud to keep data in-house.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Your Data, More Impactful Chat Experiences</span>
-                      <p className="text-gray-700">Since your AI chatbot & AI agents that we build for you are trained on your company&apos;s unique knowledge and product offering, they can offer more relevant and impactful chat experiences for your prospects and customers that drive meaningful new results for your business.</p>
+                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company&apos;s knowledge and products, delivering relevant, impactful experiences that drive meaningful results.</p>
                     </div>
                   </li>
                 </ul>
@@ -201,17 +201,17 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <DollarSign className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Risk-Free, Money-Back Guarantee</h3>
-              <p className="text-navy-blue">Our monthly implementation and support fee is refundable (no questions asked) or cancelable if you are at any point unsatisfied. We&apos;re that confident in our ability to deliver results you&apos;ll be happy with.</p>
+              <p className="text-navy-blue">Our monthly fee is fully refundable or cancelable anytime if you&apos;re unsatisfied. We&apos;re confident in delivering results you&apos;ll love.</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Custom-built AI Chatbot & AI Agents</h3>
-              <p className="text-navy-blue">Get a custom-built AI Chatbot (with AI agents), integrated with your existing CRM, trained it on your company and product knowledge, meant to drive increased bookings of qualified leads and reduced churn.</p> 
+              <p className="text-navy-blue">Get a custom AI chatbot integrated with your CRM, trained on your company&apos;s knowledge to boost qualified lead bookings and reduce churn.</p> 
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Technical Training & Support</h3>
-              <p className="text-navy-blue">We&apos;ll train your technical team how to maintain your AI chatbot and AI agents, or we can offer ongoing technical support and feature enhancements for you.</p>
+              <p className="text-navy-blue">We can train your team to maintain the AI chatbot or provide ongoing support and feature enhancements.</p>
             </div>
           </div>
         </motion.section>
