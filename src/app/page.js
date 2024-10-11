@@ -181,7 +181,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Your Data, More Impactful Chat Experiences</span>
-                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company&apos;s knowledge and products, delivering relevant, impactful experiences that drive meaningful results.</p>
+                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company&apos;s knowledge and products, which deliver relevant, impactful experiences that drive results that directly effect your bottom line.</p>
                     </div>
                   </li>
                 </ul>
