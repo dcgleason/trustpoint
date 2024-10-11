@@ -228,7 +228,7 @@ export default function TrustpointConsultingLandingPage() {
             {[
               {
                 question: "How do you handle data privacy?",
-                answer: "We ideally keep your data in your existing systems, but either way will implement a secure data pipeline, which we recommend includes encryption at rest and in transit. If you prefer, we can host your own LLM models wihin your own infrastructure as well."
+                answer: "We ideally keep your data all within your existing systems, but if we need to another database will we will make sure it's secure and fits within your existing tech infrastructure. If you prefer, we can host your own LLM models wihin your own infrastructure as well."
               },
               {
                 question: "What kind data can you use to train the AI chatbot & AI agents?",
