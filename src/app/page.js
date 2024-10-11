@@ -105,7 +105,7 @@ export default function TrustpointConsultingLandingPage() {
         >
           <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Fast, custom, and secure AI sales & customer service chatbot implementations that use AI models trained on <span className="underline">your</span> data. Unconditional, money-back guarantee.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Fast, custom, and secure AI sales & customer service chatbot &#8220;soup to nuts&#8221; implementations that use AI models trained on <span className="underline">your</span> data. Unconditional, money-back guarantee.</p>
           <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Get your free consultation
             {/* <ArrowRight className="ml-2" /> */}
