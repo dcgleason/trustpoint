@@ -148,8 +148,8 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Increase lead quality</span>
-                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your data, so they can qualify leads and free up your sales & customer service team to focus on closing deals and delighting customers.</p>
+                      <span className="text-xl font-semibold block mb-2">Increase lead quality, reduce churn</span>
+                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your data, so they can qualify leads, offer self-service support, and free up your sales & customer service team to focus on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -167,7 +167,7 @@ export default function TrustpointConsultingLandingPage() {
                   <li className="flex items-start">
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
-                      <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents that you own & control</span>
+                      <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents</span>
                       <p className="text-gray-700">We quickly integrate a custom-built AI chatbot (with AI agents) trained on your data with your existing tech stack. It lives on your website, in your CRM, and automates routine tasks such as booking appointments, processing orders, and handling FAQs for you.</p>
                     </div>
                   </li>
