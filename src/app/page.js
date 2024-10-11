@@ -149,7 +149,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Increase lead quality, reduce churn</span>
-                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your company data, so they can qualify leads for your sales & customer service team, offer self-service support specifically tailored to your business, and free up your people to focus more on closing deals and delighting customers.</p>
+                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your company data, so they can qualify leads for your sales & customer service team, offer self-service support specifically tailored to your business (e.g. booking appointments, processing orders, etc.), and free up your people to focus more on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -168,7 +168,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents</span>
-                      <p className="text-gray-700">Custom-built AI chatbot (with AI agents) trained on your data within your existing tech stack that qualifying leads, offers tailored self-service support, and automates routine tasks like booking appointments and processing orders for you.</p>
+                      <p className="text-gray-700">Custom-built AI chatbot (with AI agents) trained on your data within your existing tech stack. We implement this solution with focus on encryption at rest and in transit and can host LLMs in your cloud environment to keep your data safe.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
