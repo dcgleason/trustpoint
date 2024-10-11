@@ -75,7 +75,7 @@ export default function TrustpointConsultingLandingPage() {
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
             <Image
-              src="/favicon.ico"
+              src="/tpc-transparent.png"
               alt="Trustpoint Consulting Logo"
               width={32}
               height={32}
