@@ -99,7 +99,7 @@ export default function TrustpointConsultingLandingPage() {
           <p className="text-xl md:text-3xl text-light-blue mb-8 italic">AI sales & customer service chatbots built on models trained on <span className="underline">your</span> data. Fast, custom, secure implementations. Unconditional, money-back guarantee.</p>
           <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
             Get your free consultation
-            <ArrowRight className="ml-2" />
+            {/* <ArrowRight className="ml-2" /> */}
           </a>
           <div className="mt-16 animate-bounce">
             <ChevronDown size={48} className="text-navy-blue" />
