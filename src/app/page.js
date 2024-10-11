@@ -168,7 +168,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Custom-built AI Chatbot & AI Agents</span>
-                      <p className="text-gray-700">These are custom-built AI chatbots (with AI agents) trained on your data within your existing tech stack. We implement AI with security in mind, and recommend that your data is encrypted at rest and in transit. We can also host LLMs in your cloud environment so that your data is kept in-house.</p>
+                      <p className="text-gray-700">We implement custom-built AI chatbots (with AI agents) trained on your data within your existing tech stack. Our implementations focus on secure data handling, and recommend that your data is encrypted at rest and in transit. We can also host LLMs in your cloud environment so that your data is kept in-house.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
