@@ -164,7 +164,7 @@ export default function TrustpointConsultingLandingPage() {
                           CPI provides a quantitative measure of the average cost incurred for each customer interaction. This metric is valuable for customer success teams as it helps evaluate the efficiency and effectiveness of a customer success operation.
                         </span>
                       </span>
-                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify & book qualified leads, and provide tailored self-service support. This frees up your people to focus on closing deals and delighting customers.</p>
+                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify & book qualified leads, and provide tailored self-service support... freeing up your people to focus on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -183,7 +183,7 @@ export default function TrustpointConsultingLandingPage() {
                     <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Custom-built AI chatbot & AI agents</span>
-                      <p className="text-gray-700">We build and implement AI chatbots trained on your data within your tech stack, and ensure secure, encrypted data handling. We can also host LLMs in your cloud to keep data in-house.</p>
+                      <p className="text-gray-700">We build and implement AI chatbots trained on your data within your tech stack, and ensure secure, encrypted data handling. We can also host LLMs in your cloud environment to keep data in-house.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
