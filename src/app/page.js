@@ -240,7 +240,7 @@ export default function TrustpointConsultingLandingPage() {
               },
               {
                 question: "What kind of support do you offer?",
-                answer: "We offer both training your technical team to support the AI chatbot & AI agents, and / or we can offer ongoing technical support and feature enhancements for you."
+                answer: "We offer both training your technical team to support the AI chatbot & AI agents, and / or we can offer ongoing technical support and feature enhancements for you. After the initial implemenation, the code is yours, so if you plan on supporting the AI chatbot & AI agents internally, we'll train your team how to do so and provide full documentation and support."
               },
               {
                 question: "What are the costs?",
