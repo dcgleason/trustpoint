@@ -227,24 +227,24 @@ export default function TrustpointConsultingLandingPage() {
           <div className="max-w-3xl mx-auto">
             {[
               {
-                question: "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-                answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc. Sed euismod, nunc id aliquam tincidunt, nisl nunc tincidunt nunc, vitae aliquam nunc nunc vitae nunc."
+                question: "How do you handle data privacy?",
+                answer: "We keep your data in your existing systems, and if you prefer can host your own LLM models wihin your own infrastructure."
               },
               {
-                question: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?",
-                answer: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+                question: "What kind data can you use to train the AI chatbot & AI agents?",
+                answer: "We can use any data you have in your existing systems, including documents, emails, and more -- structured (table data) or unstructured (free-form text, PDFs, etc)."
               },
               {
-                question: "Excepteur sint occaecat cupidatat non proident?",
-                answer: "Sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                question: "How quickly can you have the AI chatbot & AI agents ready?",
+                answer: "This depends on your requirements. For simple use cases, we can have the AI chatbot & AI agents ready for your production environment as little as 2 weeks. For more complex use cases, it could take longer."
               },
               {
-                question: "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit?",
-                answer: "Sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit."
+                question: "What kind of support do you offer?",
+                answer: "We offer both training your technical team to support the AI chatbot & AI agents, or we can offer ongoing technical support for you."
               },
               {
-                question: "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur?",
-                answer: "Vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores."
+                question: "What are the costs?",
+                answer: "We offer a free, no-obligation consultation to discuss your needs and provide a custom quote. Our fees are competitive and we offer a risk-free, money-back guarantee."
               }
             ].map((item, index) => (
               <div key={index} className="mb-4">
