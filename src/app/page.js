@@ -142,14 +142,14 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Increase lead quality</span>
-                      <p className="text-gray-700">Our AI chatbots are trained on your data, so they can answer questions specific to your business and products, and even book appointments with the right people for you.</p>
+                      <p className="text-gray-700">AI chatbots (and AI agents) we implement for you are trained on your data, so they can answer questions specific to your business and products, and even book appointments with the right people for you.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Risk-Free Guarantee</span>
-                      <p className="text-gray-700">You pay nothing until we deliver measurable results.</p>
+                      <p className="text-gray-700">Get our monthly implementation and support fee refuned at any time if you aren't at any time satisfied. We&apos;re that confident in our ability to deliver measurable results quickly.</p>
                     </div>
                   </li>
                 </ul>
