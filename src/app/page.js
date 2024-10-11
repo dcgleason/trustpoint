@@ -142,7 +142,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Increase lead quality</span>
-                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your data, so they can answer questions specific to your business and products. They can automate routine tasks such as booking appointments, processing orders, and handling FAQs for you.</p>
+                      <p className="text-gray-700">The AI chatbots & AI agents we implement for you are trained on your data, so they can qualify leads before they ever reach your sales & customer service team. Free up your sales & customer service team to focus on closing deals and delighting customers.</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -209,53 +209,33 @@ export default function TrustpointConsultingLandingPage() {
           </div>
         </motion.section>
 
-        {/* <motion.section
+        <motion.section
           initial="hidden"
           animate="visible"
           variants={fadeIn}
           className="mb-20 md:mb-40"
-          id="contact"
+          id="faq"
         >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Ready to get started?</h2>
-          <form onSubmit={handleSubmit} className="max-w-2xl mx-auto bg-white p-6 md:p-8 rounded-lg shadow-xl border border-navy-blue">
-            <div className="mb-4">
-              <label htmlFor="name" className="block text-navy-blue font-semibold mb-2">Name</label>
-              <input
-                type="text"
-                id="name"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                className="w-full px-3 py-2 border border-light-blue rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label htmlFor="email" className="block text-navy-blue font-semibold mb-2">Email</label>
-              <input
-                type="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                className="w-full px-3 py-2 border border-light-blue rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
-                required
-              />
-            </div>
-            <div className="mb-4">
-              <label htmlFor="message" className="block text-navy-blue font-semibold mb-2">I want to...</label>
-              <textarea
-                id="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                className="w-full px-3 py-2 border border-light-blue rounded-md focus:outline-none focus:ring-2 focus:ring-navy-blue"
-                rows="4"
-                required
-              ></textarea>
-            </div>
-            <a href="https://calendly.com/danny-c-gleason/30min" className="block w-full bg-navy-blue text-white font-semibold py-3 px-4 rounded-md hover:bg-light-blue transition-colors text-lg md:text-xl text-center">
-              Talk to an expert
-            </a>
-          </form>
-        </motion.section> */}
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Frequently Asked Questions</h2>
+          <div className="max-w-3xl mx-auto">
+            {[1, 2, 3, 4, 5].map((index) => (
+              <div key={index} className="mb-4">
+                <button
+                  className="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md border border-light-blue text-left"
+                  onClick={() => toggleFAQ(index)}
+                >
+                  <span className="text-lg font-semibold text-navy-blue">Question {index}</span>
+                  <ChevronDown className={`w-5 h-5 text-navy-blue transition-transform duration-300 ${openFAQ === index ? 'transform rotate-180' : ''}`} />
+                </button>
+                {openFAQ === index && (
+                  <div className="bg-white p-4 rounded-b-lg border-t border-light-blue">
+                    <p className="text-navy-blue">Answer {index}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </motion.section>
       </main>
 
       <Modal
