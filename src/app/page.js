@@ -156,7 +156,7 @@ export default function TrustpointConsultingLandingPage() {
                     <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                     <div>
                       <span className="text-xl font-semibold block mb-2">Risk-Free Guarantee</span>
-                      <p className="text-gray-700">Our monthly implementation and support fee is refundable (no questions asked) or cancelable if you at any time unsatisfied or want to cancel. We&apos;re that confident in our ability to deliver results you&apos;ll be happy with.</p>
+                      <p className="text-gray-700">Our monthly implementation and support fee is refundable (no questions asked) or cancelable if you are at any time unsatisfied or want to cancel. We&apos;re that confident in our ability to deliver results you&apos;ll be happy with.</p>
                     </div>
                   </li>
                 </ul>
