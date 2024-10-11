@@ -206,7 +206,7 @@ export default function TrustpointConsultingLandingPage() {
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Clock className="text-light-blue mb-4 w-12 h-12" />
               <h3 className="text-2xl font-semibold text-navy-blue mb-4">Custom-built AI Chatbot & AI Agents</h3>
-              <p className="text-navy-blue">Get a custom-built AI Chatbot (with AI agents), integrated with your existing CRM, trained it on your company and product knowledge, meant to drive increased bookings of qualified leads.</p> 
+              <p className="text-navy-blue">Get a custom-built AI Chatbot (with AI agents), integrated with your existing CRM, trained it on your company and product knowledge, meant to drive increased bookings of qualified leads and reduced churn.</p> 
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
               <Code className="text-light-blue mb-4 w-12 h-12" />
