@@ -238,7 +238,7 @@ export default function TrustpointConsultingLandingPage() {
               },
               {
                 question: "What kind data can you use to train the AI chatbot & AI agents?",
-                answer: "We can use any data you have in your existing systems, structured and unstructured data. This includes text-based documents, emails, and tabular data. Audio / video data is also possible to ingest via transcription."
+                answer: "We can use any data you have in your existing systems, structured and unstructured data. This includes text-based documents (emails, chat logs, etc.), PDFs, and tabular data. Audio / video data is also possible to ingest via transcription."
               },
               {
                 question: "How quickly can you have the AI chatbot & AI agents ready?",
