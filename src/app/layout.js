@@ -4,8 +4,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Trustpoint Consulting | Custom-built marketing AI for your business",
-  description: "Custom-built AI to market your business. We're a team of AI developers and business experts who help series B through D companies market more effectively with AI.",
+  title: "Trustpoint Consulting | Custom Built Sales & Customer Service AI Tools",
+  description: "Custom built sales and customer service AI tools for your business.",
   openGraph: {
     images: '/favicon.ico',
   },
