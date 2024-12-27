@@ -180,7 +180,7 @@ export default function TrustpointConsultingLandingPage() {
                   <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
                   <div>
                     <span className="text-xl font-semibold block mb-2">IT Service Management (ITSM)</span>
-                    <p className="text-gray-700">Transform your agency's service delivery with our comprehensive ITSM implementation services. We specialize in incident management, problem management, change management, and service catalog design that align with federal requirements and best practices.</p>
+                    <p className="text-gray-700">Transform your agency&apos;s service delivery with our comprehensive ITSM implementation services. We specialize in incident management, problem management, change management, and service catalog design that align with federal requirements and best practices.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -256,7 +256,7 @@ export default function TrustpointConsultingLandingPage() {
           <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
             <Code className="text-light-blue mb-4 w-12 h-12" />
             <h3 className="text-2xl font-semibold text-navy-blue mb-4">Technical Excellence</h3>
-            <p className="text-navy-blue">Benefit from our team's deep technical expertise in ServiceNow implementation, customization, and optimization specifically tailored for government agencies.</p>
+            <p className="text-navy-blue">Benefit from our team&apos;s deep technical expertise in ServiceNow implementation, customization, and optimization specifically tailored for government agencies.</p>
           </div>
         </div>
       </motion.section>
@@ -320,7 +320,7 @@ export default function TrustpointConsultingLandingPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Start Your ServiceNow Transformation</h2>
           <div className="max-w-3xl mx-auto text-center">
-            <p className="text-xl mb-8">Schedule a consultation to discuss how TrustPoint Consulting Group can help optimize your agency's ServiceNow implementation.</p>
+            <p className="text-xl mb-8">Schedule a consultation to discuss how TrustPoint Consulting Group can help optimize your agency&apos;s ServiceNow implementation.</p>
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-xl font-semibold mb-4">Schedule a Consultation</h3>
