@@ -165,6 +165,7 @@ export default function TrustpointConsultingLandingPage() {
         </div>
       </motion.section>
 
+
           <motion.section
         id="specialization"
         initial="hidden"
