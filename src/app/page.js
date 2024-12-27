@@ -181,7 +181,7 @@ export default function TrustpointConsultingLandingPage() {
                 <FileText className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">IT Service Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Modernize your agency's service delivery with tailored ITSM solutions that streamline processes while maintaining security compliance.
+                  Modernize your agency&apos;s service delivery with tailored ITSM solutions that streamline processes while maintaining security compliance.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Incident Management</li>
