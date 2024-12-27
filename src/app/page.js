@@ -77,91 +77,89 @@ export default function TrustpointConsultingLandingPage() {
 
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
-      <Head>
-        <title>TrustPoint Consulting Group | Premier ServiceNow Solutions for Federal Agencies</title>
-        <meta name="description" content="Specialized ServiceNow consulting and implementation services for government agencies. Expert ITSM, Security Operations, and GRC solutions that meet federal compliance standards." />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-  
-      <nav className="bg-navy-blue text-white py-4 relative z-10">
-        <div className="container mx-auto px-4 flex justify-between items-center">
-          <div className="flex items-center">
-            <Image
-              src="/tpc-transparent.png"
-              alt="TrustPoint Consulting Group Logo"
-              width={50}
-              height={50}
-              className="mr-2"
-            />
-            <div className="text-2xl font-bold">TrustPoint Consulting Group</div>
-          </div>
-          <div className="md:hidden">
-            <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
-              <Menu size={24} />
-            </button>
-          </div>
-          <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
-            <a href="#services" className="block md:inline hover:text-light-blue transition-colors py-2">Services</a>
-            <a href="#expertise" className="block md:inline hover:text-light-blue transition-colors py-2">Expertise</a>
-            <a href="#faq" className="block md:inline hover:text-light-blue transition-colors py-2">FAQs</a>
-            <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
-          </div>
+    <Head>
+      <title>TrustPoint Consulting Group | Premier ServiceNow Solutions for Federal Agencies</title>
+      <meta name="description" content="Specialized ServiceNow consulting and implementation services for government agencies. Expert ITSM, Security Operations, and IRM solutions that meet federal compliance standards." />
+      <link rel="icon" href="/favicon.ico" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </Head>
+
+    <nav className="bg-navy-blue text-white py-4 relative z-10">
+      <div className="container mx-auto px-4 flex justify-between items-center">
+        <div className="flex items-center">
+          <Image
+            src="/tpc-transparent.png"
+            alt="TrustPoint Consulting Group Logo"
+            width={32}
+            height={32}
+            className="mr-2"
+          />
+          <div className="text-2xl font-bold">TrustPoint Consulting Group</div>
         </div>
-      </nav>
-  
-      <main className="container mx-auto px-4 py-8 relative z-10">
-        <motion.header
-          initial="hidden"
-          animate="visible"
-          variants={fadeIn}
-          className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
-        >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-            Elite ServiceNow Solutions for Federal Agencies
-          </h1>
-          <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">
-            Delivering secure, compliant, and efficient ServiceNow implementations with certified experts who understand government requirements.
-          </p>
-          <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Schedule a Consultation
-            <ArrowRight className="ml-2" />
-          </a>
-          <div className="mt-16 animate-bounce">
-            <ChevronDown size={48} className="text-navy-blue" />
-          </div>
-        </motion.header>
-  
-        <motion.section
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="py-16 bg-gray-50"
-        >
-          <div className="container mx-auto px-4">
-            <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-12 text-center">
-              Why Choose TrustPoint
-            </h2>
-            <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <Shield className="text-light-blue w-12 h-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-4">Federal Compliance Expertise</h3>
-                <p>Deep understanding of FedRAMP, FISMA, and NIST requirements</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <Users className="text-light-blue w-12 h-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-4">Certified ServiceNow Experts</h3>
-                <p>In-house team of certified professionals with government experience</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <Lock className="text-light-blue w-12 h-12 mb-4" />
-                <h3 className="text-xl font-semibold mb-4">Security-First Approach</h3>
-                <p>Rigorous security protocols aligned with federal standards</p>
-              </div>
+        <div className="md:hidden">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
+            <Menu size={24} />
+          </button>
+        </div>
+        <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
+          <a href="#what-we-do" className="block md:inline hover:text-light-blue transition-colors py-2">What We Do</a>
+          <a href="#specialization" className="block md:inline hover:text-light-blue transition-colors py-2">Specialization</a>
+          <a href="#values" className="block md:inline hover:text-light-blue transition-colors py-2">Values</a>
+          <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main className="container mx-auto px-4 py-8 relative z-10">
+      <motion.header
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="text-center mb-20 md:mb-40 min-h-[70vh] flex flex-col justify-center items-center"
+      >
+        <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
+          Transforming Federal IT Through ServiceNow Excellence
+        </h1>
+        <p className="text-xl md:text-3xl text-light-blue mb-8">
+          We start with people and understanding the way they work, delivering secure ServiceNow solutions that meet federal compliance requirements.
+        </p>
+        <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
+          Start Your Transformation
+          <ArrowRight className="ml-2" />
+        </a>
+      </motion.header>
+
+      <motion.section 
+        id="what-we-do"
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="py-16 bg-gray-50 rounded-lg"
+      >
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl text-center text-navy-blue mb-8">WHAT WE DO</h2>
+          <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
+            Our philosophy is to lead with a people-first approach to government IT
+          </h3>
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <Clock className="w-12 h-12 text-light-blue mb-4" />
+              <h4 className="text-xl font-semibold mb-4">Implementation</h4>
+              <p>Each agency is unique and so is our approach. We tailor implementations based on specific mission requirements and security needs.</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <Zap className="w-12 h-12 text-light-blue mb-4" />
+              <h4 className="text-xl font-semibold mb-4">Optimization</h4>
+              <p>We help agencies leverage new ServiceNow features while maintaining compliance with federal security standards.</p>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <Shield className="w-12 h-12 text-light-blue mb-4" />
+              <h4 className="text-xl font-semibold mb-4">Security Focus</h4>
+              <p>Security and compliance are built into everything we do, ensuring your ServiceNow implementation meets federal requirements.</p>
             </div>
           </div>
-        </motion.section>
+        </div>
+      </motion.section>
 
           <motion.section
         id="specialization"
