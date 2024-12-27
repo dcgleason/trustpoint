@@ -122,13 +122,13 @@ export default function TrustpointConsultingLandingPage() {
         className="text-center mb-20 md:mb-40 min-h-[70vh] flex flex-col justify-center items-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-          Transforming Federal IT Through ServiceNow Excellence
+          Elite ServiceNow Solutions for Federal Agencies
         </h1>
         <p className="text-xl md:text-3xl text-light-blue mb-8">
-          We start with people and understanding the way they work, delivering secure ServiceNow solutions that meet federal compliance requirements.
+          Architecting intelligent, secure platforms that elevate government IT operations.
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-          Start Your Transformation
+          Partner With Us
           <ArrowRight className="ml-2" />
         </a>
       </motion.header>
@@ -141,7 +141,7 @@ export default function TrustpointConsultingLandingPage() {
         className="py-16 bg-gray-50 rounded-lg"
       >
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl text-center text-navy-blue mb-8">WHAT WE DO</h2>
+          <h2 className="text-3xl text-center text-navy-blue mb-8">WHO WE ARE</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
             Our philosophy is to lead with a people-first approach to government IT
           </h3>
@@ -173,7 +173,7 @@ export default function TrustpointConsultingLandingPage() {
         className="py-20 bg-white"
         >
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl text-center text-navy-blue mb-8">SPECIALIZATION</h2>
+          <h2 className="text-3xl text-center text-navy-blue mb-8">WHAT WE DO</h2>
           <div className="text-center mb-16">
             <h3 className="text-5xl font-bold mb-12">ServiceNow®</h3>
             <div className="grid md:grid-cols-3 gap-12">
@@ -181,7 +181,7 @@ export default function TrustpointConsultingLandingPage() {
                 <FileText className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">IT Service Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Modernize your agency&apos;s service delivery with tailored ITSM solutions that streamline processes while maintaining security compliance.
+                  Implementing ITIL-aligned workflows and automated service delivery through ServiceNow's Now Platform, with FedRAMP-compliant configurations and role-based access control.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Incident Management</li>
@@ -196,7 +196,7 @@ export default function TrustpointConsultingLandingPage() {
                 <Shield className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">Integrated Risk Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Address risk, compliance, and resilience through an integrated set of capabilities across your agency in real time, ensuring adherence to federal standards.
+                  Leveraging ServiceNow GRC modules to implement continuous monitoring, automated control testing, and real-time risk scoring aligned with NIST frameworks and federal mandates.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Policy & Compliance Management</li>
@@ -211,7 +211,7 @@ export default function TrustpointConsultingLandingPage() {
                 <Code className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">Platform Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Ensure optimal performance with comprehensive platform maintenance and custom development services that meet federal security requirements.
+                  Optimizing instance performance through automated testing, CI/CD pipelines, and scalable architecture design while maintaining ATO requirements and security boundaries.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Custom Application Development</li>
@@ -234,7 +234,7 @@ export default function TrustpointConsultingLandingPage() {
       className="py-16 bg-gray-50"
     >
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-center text-navy-blue mb-12">Our Core Values</h2>
+        <h2 className="text-3xl text-center text-navy-blue mb-12">OUR CORE VALUES</h2>
         <div className="grid md:grid-cols-4 gap-8">
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
