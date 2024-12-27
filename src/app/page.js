@@ -336,7 +336,7 @@ export default function TrustpointConsultingLandingPage() {
                 <h3 className="text-xl font-semibold mb-4">Direct Contact</h3>
                 <p className="mb-4">Reach out to discuss your specific requirements or questions.</p>
                 <a 
-                  href="mailto:info@trustpointconsulting.com" 
+                  href="mailto:dan@trustpointconsulting.co" 
                   className="inline-block bg-navy-blue text-white py-3 px-6 rounded-full hover:bg-light-blue transition-colors"
                 >
                   Contact Us
@@ -372,7 +372,7 @@ export default function TrustpointConsultingLandingPage() {
             <div>
               <h4 className="font-semibold text-xl mb-4">Contact</h4>
               <p className="text-sm">Middlebury, CT</p>
-              <a href="mailto:info@trustpointconsulting.com" className="text-sm hover:text-light-blue">info@trustpointconsulting.com</a>
+              <a href="mailto:dan@trustpointconsulting.co" className="text-sm hover:text-light-blue">info@trustpointconsulting.com</a>
             </div>
             <div>
               <h4 className="font-semibold text-xl mb-4">Quick Links</h4>
