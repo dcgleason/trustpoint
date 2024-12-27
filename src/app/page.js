@@ -122,10 +122,10 @@ export default function TrustpointConsultingLandingPage() {
         className="text-center mb-20 md:mb-40 min-h-[70vh] flex flex-col justify-center items-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-          Elite ServiceNow Solutions for Federal Agencies
+          Elite ServiceNow Services for Federal Agencies
         </h1>
         <p className="text-xl md:text-3xl text-light-blue mb-8">
-          Architecting intelligent, secure platforms that elevate government IT operations.
+          Architecting intelligent, secure solutions that elevate government IT operations.
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
           Partner With Us
@@ -186,19 +186,19 @@ export default function TrustpointConsultingLandingPage() {
           
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <MessageCircle className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Clear Communication</h3>
+            <h3 className="font-semibold text-xl mb-2">Transparency</h3>
             <p className="text-gray-700">Maintaining open, consistent dialogue with stakeholders at every level.</p>
           </div>
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Federal Expertise</h3>
+            <h3 className="font-semibold text-xl mb-2">The Pursuit of Excellence</h3>
             <p className="text-gray-700">Deep understanding of government requirements and compliance standards.</p>
           </div>
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">People First</h3>
+            <h3 className="font-semibold text-xl mb-2">People-First Approach</h3>
             <p className="text-gray-700">Focusing on the human element in every technical solution we deliver.</p>
           </div>
         </div>
