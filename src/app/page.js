@@ -3,9 +3,24 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import { motion } from 'framer-motion';
-import { ArrowRight, Calendar, Code, Smartphone, ChevronDown, Menu, CheckCircle, DollarSign, Clock, Zap } from 'lucide-react';
+import { 
+  ArrowRight, 
+  Calendar, 
+  Code, 
+  Smartphone, 
+  ChevronDown, 
+  Menu, 
+  CheckCircle, 
+  Shield, 
+  Clock, 
+  Zap,
+  Award,
+  Users,
+  Lock
+} from 'lucide-react';
 import Modal from '../app/components/Modal';
 import Image from 'next/image';
+
 export default function TrustpointConsultingLandingPage() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -14,14 +29,12 @@ export default function TrustpointConsultingLandingPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
   const [isSuccess, setIsSuccess] = useState(false);
-
   const [openFAQ, setOpenFAQ] = useState(null);
 
   const toggleFAQ = (index) => {
     setOpenFAQ(openFAQ === index ? null : index);
   };
 
-  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -38,16 +51,16 @@ export default function TrustpointConsultingLandingPage() {
         setName('');
         setEmail('');
         setMessage('');
-        setModalMessage("Thank you for reaching out. We'll be in touch soon to schedule your free consultation!");
+        setModalMessage("Thank you for reaching out. We'll be in touch soon to discuss your ServiceNow needs.");
         setIsSuccess(true);
       } else {
         console.error('Form submission failed');
-        setModalMessage('Oops! Something went wrong. Please try again later.');
+        setModalMessage('Something went wrong. Please try again or contact us directly.');
         setIsSuccess(false);
       }
     } catch (error) {
       console.error('Error submitting form:', error);
-      setModalMessage('Oops! Something went wrong. Please try again later.');
+      setModalMessage('Something went wrong. Please try again or contact us directly.');
       setIsSuccess(false);
     }
     setIsModalOpen(true);
@@ -65,23 +78,23 @@ export default function TrustpointConsultingLandingPage() {
   return (
     <div className="min-h-screen bg-white text-navy-blue relative overflow-hidden">
       <Head>
-        <title>Trustpoint Consulting | AI Chatbots & AI Agents for your sales & customer service departments</title>
-        <meta name="description" content="AI chatbots and AI agents built on models trained on your data to automate routine tasks such as booking appointments, processing orders, and handling FAQs for you. Money-back guarantee, no questions asked." />
+        <title>TrustPoint Consulting Group | Premier ServiceNow Solutions for Federal Agencies</title>
+        <meta name="description" content="Specialized ServiceNow consulting and implementation services for government agencies. Expert ITSM, Security Operations, and GRC solutions that meet federal compliance standards." />
         <link rel="icon" href="/favicon.ico" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-
+  
       <nav className="bg-navy-blue text-white py-4 relative z-10">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center">
             <Image
               src="/tpc-transparent.png"
-              alt="Trustpoint Consulting Logo"
+              alt="TrustPoint Consulting Group Logo"
               width={32}
               height={32}
               className="mr-2"
             />
-            <div className="text-2xl font-bold">Trustpoint Consulting</div>
+            <div className="text-2xl font-bold">TrustPoint Consulting Group</div>
           </div>
           <div className="md:hidden">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
@@ -89,13 +102,14 @@ export default function TrustpointConsultingLandingPage() {
             </button>
           </div>
           <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
-            <a href="#offer" className="block md:inline hover:text-light-blue transition-colors py-2">Offer</a>
-            <a href="#benefits" className="block md:inline hover:text-light-blue transition-colors py-2">Benefits</a>
+            <a href="#services" className="block md:inline hover:text-light-blue transition-colors py-2">Services</a>
+            <a href="#expertise" className="block md:inline hover:text-light-blue transition-colors py-2">Expertise</a>
             <a href="#faq" className="block md:inline hover:text-light-blue transition-colors py-2">FAQs</a>
+            <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
           </div>
         </div>
       </nav>
-
+  
       <main className="container mx-auto px-4 py-8 relative z-10">
         <motion.header
           initial="hidden"
@@ -103,18 +117,22 @@ export default function TrustpointConsultingLandingPage() {
           variants={fadeIn}
           className="text-center mb-20 md:mb-40 min-h-screen flex flex-col justify-center items-center"
         >
-          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">Large Language Models &lt; Large Profit Models </h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
+            Elite ServiceNow Solutions for Federal Agencies
+          </h1>
           <div className="mb-8"></div>
-          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">Fast, custom, and secure AI sales & customer success chatbot implementations that use AI models trained on <span className="underline">your</span> data. Unconditional, money-back guarantee.</p>
+          <p className="text-xl md:text-3xl text-light-blue mb-8 italic">
+            Delivering secure, compliant, and efficient ServiceNow implementations with certified experts who understand government requirements.
+          </p>
           <a href="https://calendly.com/danny-c-gleason/30min" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-            Get your free consultation
-            {/* <ArrowRight className="ml-2" /> */}
+            Schedule a Consultation
+            <ArrowRight className="ml-2" />
           </a>
           <div className="mt-16 animate-bounce">
             <ChevronDown size={48} className="text-navy-blue" />
           </div>
         </motion.header>
-
+  
         <motion.section
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -123,19 +141,23 @@ export default function TrustpointConsultingLandingPage() {
         >
           <div className="container mx-auto px-4">
             <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-12 text-center">
-              Trusted by
+              Why Choose TrustPoint
             </h2>
-            <div className="flex justify-center">
-              <div className="w-48 h-48 relative">
-                <a href="https://www.dayos.ai" target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/dayos-transparent.png"
-                    alt="Dayos Logo"
-                    layout="fill"
-                    objectFit="contain"
-                  />
-                </a>
-                
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <Shield className="text-light-blue w-12 h-12 mb-4" />
+                <h3 className="text-xl font-semibold mb-4">Federal Compliance Expertise</h3>
+                <p>Deep understanding of FedRAMP, FISMA, and NIST requirements</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <Users className="text-light-blue w-12 h-12 mb-4" />
+                <h3 className="text-xl font-semibold mb-4">Certified ServiceNow Experts</h3>
+                <p>In-house team of certified professionals with government experience</p>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <Lock className="text-light-blue w-12 h-12 mb-4" />
+                <h3 className="text-xl font-semibold mb-4">Security-First Approach</h3>
+                <p>Rigorous security protocols aligned with federal standards</p>
               </div>
             </div>
           </div>
@@ -146,144 +168,191 @@ export default function TrustpointConsultingLandingPage() {
           animate="visible"
           variants={fadeIn}
           className="mb-20 md:mb-40 py-20 bg-gradient-to-b from-white to-gray-100"
-          id="offer"
+          id="services"
         >
-          <div className="container mx-auto px-4">
-            <h2 className="text-4xl md:text-5xl font-bold text-navy-blue mb-12 text-center">AI built for <span className="underline">ROI</span></h2>
-            <div className="grid md:grid-cols-2 gap-16 items-start">
-              <div>
-                <h3 className="text-3xl font-bold text-navy-blue mb-8">We Promise Results:</h3>
-                <ul className="space-y-6">
-                  <li className="flex items-start">
-                    <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
-                    <div>
-                      <span className="text-xl font-semibold block mb-2 relative group">
-                        Increase qualified lead bookings, reduce your cost per interaction (CPI)
-                        <span className="absolute top-0 right-0 text-sm text-gray-500 cursor-help rounded-full border border-gray-500 w-5 h-5 flex items-center justify-center">i</span>
-                        <span className="invisible group-hover:visible absolute z-10 bg-white border border-gray-200 rounded p-2 text-sm text-gray-700 shadow-lg w-64 left-1/2 transform -translate-x-1/2 mt-2">
-                          CPI provides a quantitative measure of the average cost incurred for each customer interaction. This metric is valuable for customer success teams as it helps evaluate the efficiency and effectiveness of a customer success operation.
-                        </span>
-                      </span>
-                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company data to qualify & book qualified leads, and provide tailored self-service support... freeing up your people to focus on closing deals and delighting customers.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
-                    <div>
-                      <span className="text-xl font-semibold block mb-2">Risk-free guarantee</span>
-                      <p className="text-gray-700">Our monthly fee is fully refundable or cancelable at any point if you&apos;re unsatisfied. We&apos;re confident we&apos;ll deliver results for your business you&apos;ll love.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold text-navy-blue mb-8">Our Solution:</h3>
-                <ul className="space-y-6">
-                  <li className="flex items-start">
-                    <Smartphone className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
-                    <div>
-                      <span className="text-xl font-semibold block mb-2">Custom-built AI chatbot & AI agents</span>
-                      <p className="text-gray-700">We build and implement AI chatbots trained on your data within your tech stack, and ensure secure, encrypted data handling. We can also host LLMs in your cloud environment to keep data in-house.</p>
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <Zap className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
-                    <div>
-                      <span className="text-xl font-semibold block mb-2">Your data, more impactful chat experiences</span>
-                      <p className="text-gray-700">Our AI chatbots and agents are trained on your company&apos;s knowledge and products. The effect is more relevant, impactful experiences that drive meaningful results for your business.</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="mt-16 text-center">
-              <a href="https://calendly.com/danny-c-gleason/30min" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
-                Get your free consultation
-              </a>
-            </div>
-          </div>
-        </motion.section>
-
-        <motion.section
-          initial="hidden"
-          animate="visible"
-          variants={fadeIn}
-          className="mb-20 md:mb-40"
-          id="benefits"
-        >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">What You Get</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <DollarSign className="text-light-blue mb-4 w-12 h-12" />
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Risk-Free, Money-Back Guarantee</h3>
-              <p className="text-navy-blue">We offer a 100% satisfaction guarantee. If you&apos;re not happy with our services, you can cancel or receive a full refund at any time. We are committed to delivering exceptional results that drive real business value.</p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <Clock className="text-light-blue mb-4 w-12 h-12" />
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Custom-built AI Chatbot & AI Agents</h3>
-              <p className="text-navy-blue">Get a custom AI chatbot integrated with your CRM, trained on your company&apos;s knowledge to boost qualified lead bookings and reduce cost per interaction (CPI).</p> 
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
-              <Code className="text-light-blue mb-4 w-12 h-12" />
-              <h3 className="text-2xl font-semibold text-navy-blue mb-4">Technical Training & Support</h3>
-              <p className="text-navy-blue">We provide ongoing support & maintenance for your AI chatbot & AI agents, ensure smooth operation, and implement regular feature enhancements to keep your AI systems bleeding-edge.</p>
-            </div>
-          </div>
-        </motion.section>
-
-        <motion.section
-          initial="hidden"
-          animate="visible"
-          variants={fadeIn}
-          className="mb-20 md:mb-40"
-          id="faq"
-        >
-          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Frequently Asked Questions</h2>
-          <div className="max-w-3xl mx-auto">
-            {[
-              {
-                question: "How do you handle data privacy?",
-                answer: "Data privacy and security is a top priority for us. We utilize standard encryption protocols (TLS/SSL) for data transfers and rely on reputable cloud services like AWS, Vercel, or Heroku for data-at-rest encryption (typically AES-256). While these providers handle much of the underlying security, we implement best practices for access controls and database security within their platforms. For enhanced data protection, we offer the option to host LLM models on your own infrastructure, keeping sensitive data in-house. We're transparent about our use of third-party tools and their security implications, and we're committed to continuously improving our security measures as we grow. For clients with specific security requirements, we collaborate closely with your IT team to implement tailored solutions."
-              },
-              {
-                question: "What kind data can you use to train the AI chatbot & AI agents?",
-                answer: "We can use any data you have in your existing systems, structured and unstructured data. This includes text-based documents (emails, chat logs, etc.), PDFs, and tabular data. Audio / video data is also possible to ingest via transcription."
-              },
-              {
-                question: "How quickly can you have the AI chatbot & AI agents ready?",
-                answer: "This depends on your requirements. For simple use cases, we can have the AI chatbot & AI agents ready for your production environment as little as 2-3 weeks. For more complex use cases, it could take longer."
-              },
-              {
-                question: "What kind of support do you offer?",
-                answer: "We offer ongoing technical support, training on how and where to utilize the agents and chatbot effectively, and feature enhancements as needed and / or requested."
-              },
-              {
-                question: "What are the costs?",
-                answer: "We offer a free, no-obligation consultation to discuss your needs and provide a custom quote. Our fees are competitive and we offer a risk-free, money-back guarantee."
-              }
-            ].map((item, index) => (
-              <div key={index} className="mb-4">
-                <button
-                  className="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md border border-light-blue text-left"
-                  onClick={() => toggleFAQ(index)}
-                >
-                  <span className="text-lg font-semibold text-navy-blue">{item.question}</span>
-                  <ChevronDown className={`w-5 h-5 text-navy-blue transition-transform duration-300 ${openFAQ === index ? 'transform rotate-180' : ''}`} />
-                </button>
-                {openFAQ === index && (
-                  <div className="bg-white p-4 rounded-b-lg border-t border-light-blue">
-                    <p className="text-navy-blue">{item.answer}</p>
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-navy-blue mb-12 text-center">Comprehensive ServiceNow Solutions</h2>
+          <div className="grid md:grid-cols-2 gap-16 items-start">
+            <div>
+              <h3 className="text-3xl font-bold text-navy-blue mb-8">Core Services:</h3>
+              <ul className="space-y-6">
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
+                  <div>
+                    <span className="text-xl font-semibold block mb-2">IT Service Management (ITSM)</span>
+                    <p className="text-gray-700">Transform your agency's service delivery with our comprehensive ITSM implementation services. We specialize in incident management, problem management, change management, and service catalog design that align with federal requirements and best practices.</p>
                   </div>
-                )}
-              </div>
-            ))}
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
+                  <div>
+                    <span className="text-xl font-semibold block mb-2">Security Operations & GRC</span>
+                    <p className="text-gray-700">Enhance your security posture with our integrated Security Operations and Governance, Risk, and Compliance solutions. We implement robust frameworks that meet strict federal security standards while streamlining operations.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="text-green-500 mr-4 flex-shrink-0 w-8 h-8" />
+                  <div>
+                    <span className="text-xl font-semibold block mb-2">Platform Management</span>
+                    <p className="text-gray-700">Ensure optimal performance with our comprehensive platform maintenance services, including upgrades, optimization, and continuous monitoring tailored to government environments.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold text-navy-blue mb-8">Our Commitment:</h3>
+              <ul className="space-y-6">
+                <li className="flex items-start">
+                  <Shield className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
+                  <div>
+                    <span className="text-xl font-semibold block mb-2">Federal Compliance Excellence</span>
+                    <p className="text-gray-700">Our implementations strictly adhere to FedRAMP, FISMA, and NIST guidelines, ensuring your ServiceNow instance meets all federal security requirements and compliance standards.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <Users className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
+                  <div>
+                    <span className="text-xl font-semibold block mb-2">Expert Team</span>
+                    <p className="text-gray-700">Work with our in-house team of certified ServiceNow professionals who bring extensive government sector experience and technical expertise to every project.</p>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <Award className="text-light-blue mr-4 flex-shrink-0 w-8 h-8" />
+                  <div>
+                    <span className="text-xl font-semibold block mb-2">Quality Assurance</span>
+                    <p className="text-gray-700">Benefit from our rigorous quality control processes and commitment to excellence in every aspect of your ServiceNow implementation.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="mt-16 text-center">
             <a href="https://calendly.com/danny-c-gleason/30min" className="inline-block bg-navy-blue text-white text-xl font-bold py-4 px-8 rounded-full hover:bg-light-blue transition-colors duration-300 transform hover:scale-105">
-              Get your free consultation
+              Schedule Your Consultation
             </a>
           </div>
-        </motion.section>
+        </div>
+      </motion.section>
+
+      <motion.section
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="mb-20 md:mb-40"
+        id="expertise"
+      >
+        <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Our Value Proposition</h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
+            <Lock className="text-light-blue mb-4 w-12 h-12" />
+            <h3 className="text-2xl font-semibold text-navy-blue mb-4">Security-First Implementation</h3>
+            <p className="text-navy-blue">Our implementations prioritize security at every level, ensuring your ServiceNow instance meets the strictest federal compliance requirements while maintaining optimal performance and usability.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
+            <Clock className="text-light-blue mb-4 w-12 h-12" />
+            <h3 className="text-2xl font-semibold text-navy-blue mb-4">Rapid Time-to-Value</h3>
+            <p className="text-navy-blue">Experience accelerated implementation timelines without compromising quality. Our proven methodology and experienced team ensure efficient delivery while meeting all federal requirements.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md border border-light-blue">
+            <Code className="text-light-blue mb-4 w-12 h-12" />
+            <h3 className="text-2xl font-semibold text-navy-blue mb-4">Technical Excellence</h3>
+            <p className="text-navy-blue">Benefit from our team's deep technical expertise in ServiceNow implementation, customization, and optimization specifically tailored for government agencies.</p>
+          </div>
+        </div>
+      </motion.section>
+
+      <motion.section
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="mb-20 md:mb-40"
+        id="faq"
+      >
+        <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Frequently Asked Questions</h2>
+        <div className="max-w-3xl mx-auto">
+          {[
+            {
+              question: "What sets TrustPoint apart in government ServiceNow implementations?",
+              answer: "TrustPoint Consulting Group specializes exclusively in federal ServiceNow implementations with an in-house team of certified experts who understand government compliance requirements. Our security-first approach and deep understanding of federal IT environments ensure successful implementations that meet all necessary standards and requirements."
+            },
+            {
+              question: "How do you ensure compliance with federal security standards?",
+              answer: "We maintain comprehensive knowledge of FedRAMP, FISMA, NIST, and other federal compliance frameworks. Our implementation processes include built-in compliance checks, security controls, and documentation to ensure your ServiceNow instance meets or exceeds all federal security requirements."
+            },
+            {
+              question: "What is your implementation methodology?",
+              answer: "Our implementation approach combines ServiceNow best practices with government-specific requirements. We follow a structured methodology that includes thorough requirements gathering, security-focused design, staged implementation, comprehensive testing, and detailed documentation. Throughout the process, we maintain clear communication and regular progress updates."
+            },
+            {
+              question: "Do you provide post-implementation support?",
+              answer: "Yes, we offer comprehensive post-implementation support including platform maintenance, optimization services, security updates, and ongoing technical support. Our support models are flexible and can be tailored to your agency's specific needs and requirements."
+            },
+            {
+              question: "How do you handle remote implementations?",
+              answer: "Based in Middlebury, CT, we have extensive experience delivering successful remote implementations for government agencies nationwide. We utilize secure collaboration tools and maintain regular communication through approved channels to ensure project success while meeting all security requirements."
+            }
+          ].map((item, index) => (
+            <div key={index} className="mb-4">
+              <button
+                className="flex justify-between items-center w-full bg-white p-4 rounded-lg shadow-md border border-light-blue text-left"
+                onClick={() => toggleFAQ(index)}
+              >
+                <span className="text-lg font-semibold text-navy-blue">{item.question}</span>
+                <ChevronDown className={`w-5 h-5 text-navy-blue transition-transform duration-300 ${openFAQ === index ? 'transform rotate-180' : ''}`} />
+              </button>
+              {openFAQ === index && (
+                <div className="bg-white p-4 rounded-b-lg border-t border-light-blue">
+                  <p className="text-navy-blue">{item.answer}</p>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </motion.section>
+
+      <motion.section
+        initial="hidden"
+        animate="visible"
+        variants={fadeIn}
+        className="mb-20 md:mb-40 bg-gray-50 py-16"
+        id="contact"
+      >
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Start Your ServiceNow Transformation</h2>
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-xl mb-8">Schedule a consultation to discuss how TrustPoint Consulting Group can help optimize your agency's ServiceNow implementation.</p>
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Schedule a Consultation</h3>
+                <p className="mb-4">Book a time to discuss your ServiceNow needs and learn how we can help.</p>
+                <a 
+                  href="https://calendly.com/danny-c-gleason/30min" 
+                  className="inline-block bg-navy-blue text-white py-3 px-6 rounded-full hover:bg-light-blue transition-colors"
+                >
+                  Schedule Now
+                </a>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4">Direct Contact</h3>
+                <p className="mb-4">Reach out to discuss your specific requirements or questions.</p>
+                <a 
+                  href="mailto:info@trustpointconsulting.com" 
+                  className="inline-block bg-navy-blue text-white py-3 px-6 rounded-full hover:bg-light-blue transition-colors"
+                >
+                  Contact Us
+                </a>
+              </div>
+            </div>
+            <div className="bg-white p-8 rounded-lg shadow-md">
+              <h3 className="text-2xl font-semibold mb-6">Our Location</h3>
+              <p className="mb-2">TrustPoint Consulting Group LLC</p>
+              <p className="mb-2">Middlebury, CT</p>
+              <p className="text-sm text-gray-600">Supporting federal agencies nationwide through secure remote delivery</p>
+            </div>
+          </div>
+        </div>
+      </motion.section>
+
       </main>
 
       <Modal
@@ -292,11 +361,32 @@ export default function TrustpointConsultingLandingPage() {
         message={modalMessage}
         isSuccess={isSuccess}
       />
-      
+
       <footer className="bg-navy-blue text-white py-8 mt-20 relative z-10">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 Trustpoint Consulting. All rights reserved.</p>
-          <p className="mt-2"></p>
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-3 gap-8">
+            <div>
+              <h4 className="font-semibold text-xl mb-4">TrustPoint Consulting Group</h4>
+              <p className="text-sm">Delivering excellence in ServiceNow solutions for federal agencies</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-xl mb-4">Contact</h4>
+              <p className="text-sm">Middlebury, CT</p>
+              <a href="mailto:info@trustpointconsulting.com" className="text-sm hover:text-light-blue">info@trustpointconsulting.com</a>
+            </div>
+            <div>
+              <h4 className="font-semibold text-xl mb-4">Quick Links</h4>
+              <ul className="space-y-2 text-sm">
+                <li><a href="#services" className="hover:text-light-blue">Services</a></li>
+                <li><a href="#expertise" className="hover:text-light-blue">Expertise</a></li>
+                <li><a href="#faq" className="hover:text-light-blue">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div className="border-t border-gray-700 mt-8 pt-8 text-center">
+            <p>&copy; {new Date().getFullYear()} TrustPoint Consulting Group LLC. All rights reserved.</p>
+            <p className="text-sm mt-2">ServiceNow and the ServiceNow logo are trademarks and registered trademarks of ServiceNow, Inc.</p>
+          </div>
         </div>
       </footer>
     </div>
