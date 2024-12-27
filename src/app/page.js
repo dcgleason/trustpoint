@@ -143,7 +143,7 @@ export default function TrustpointConsultingLandingPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl text-center text-navy-blue mb-8">WHO WE ARE</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            Our philosophy is to lead with a people-first approach to government IT
+           We are a team of experts who lead with a people-first approach to government IT
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
@@ -166,7 +166,47 @@ export default function TrustpointConsultingLandingPage() {
       </motion.section>
 
 
-          <motion.section
+       
+
+        <motion.section
+      id="values"
+      initial="hidden"
+      animate="visible"
+      variants={fadeIn}
+      className="py-16 bg-gray-50"
+    >
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl text-center text-navy-blue mb-12">OUR CORE VALUES</h2>
+        <div className="grid md:grid-cols-4 gap-8">
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">Integrity & Trust</h3>
+            <p className="text-gray-700">Building relationships through transparent, ethical conduct and reliable delivery.</p>
+          </div>
+          
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <MessageCircle className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">Clear Communication</h3>
+            <p className="text-gray-700">Maintaining open, consistent dialogue with stakeholders at every level.</p>
+          </div>
+
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">Federal Expertise</h3>
+            <p className="text-gray-700">Deep understanding of government requirements and compliance standards.</p>
+          </div>
+
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">People First</h3>
+            <p className="text-gray-700">Focusing on the human element in every technical solution we deliver.</p>
+          </div>
+        </div>
+      </div>
+    </motion.section>
+
+
+    <motion.section
         id="specialization"
         initial="hidden"
         animate="visible"
@@ -225,43 +265,6 @@ export default function TrustpointConsultingLandingPage() {
             </div>
           </div>
         </div>
-    </motion.section>
-
-        <motion.section
-      id="values"
-      initial="hidden"
-      animate="visible"
-      variants={fadeIn}
-      className="py-16 bg-gray-50"
-    >
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-center text-navy-blue mb-12">OUR CORE VALUES</h2>
-        <div className="grid md:grid-cols-4 gap-8">
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Integrity & Trust</h3>
-            <p className="text-gray-700">Building relationships through transparent, ethical conduct and reliable delivery.</p>
-          </div>
-          
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <MessageCircle className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Clear Communication</h3>
-            <p className="text-gray-700">Maintaining open, consistent dialogue with stakeholders at every level.</p>
-          </div>
-
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Federal Expertise</h3>
-            <p className="text-gray-700">Deep understanding of government requirements and compliance standards.</p>
-          </div>
-
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">People First</h3>
-            <p className="text-gray-700">Focusing on the human element in every technical solution we deliver.</p>
-          </div>
-        </div>
-      </div>
     </motion.section>
 
       <motion.section
