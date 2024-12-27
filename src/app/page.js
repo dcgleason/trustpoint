@@ -192,7 +192,7 @@ export default function TrustpointConsultingLandingPage() {
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">The Pursuit of Excellence</h3>
+            <h3 className="font-semibold text-xl mb-2">Pursuit of Excellence</h3>
             <p className="text-gray-700">Deep understanding of government requirements and compliance standards.</p>
           </div>
 
