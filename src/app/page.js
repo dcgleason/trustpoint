@@ -16,7 +16,11 @@ import {
   Zap,
   Award,
   Users,
-  Lock
+  Lock,
+  FileText,
+  Briefcase,
+  Globe,
+  MessageCircle
 } from 'lucide-react';
 import Modal from '../app/components/Modal';
 import Image from 'next/image';
