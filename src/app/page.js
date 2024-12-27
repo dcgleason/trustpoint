@@ -182,7 +182,7 @@ export default function TrustpointConsultingLandingPage() {
                 <FileText className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">IT Service Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Implementing ITIL-aligned workflows and automated service delivery through ServiceNow's Now Platform, with FedRAMP-compliant configurations and role-based access control.
+                  Implementing ITIL-aligned workflows and automated service delivery through ServiceNow&apos;s Now Platform, with FedRAMP-compliant configurations and role-based access control.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Incident Management</li>
