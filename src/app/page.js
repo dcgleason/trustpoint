@@ -122,13 +122,13 @@ export default function TrustpointConsultingLandingPage() {
         className="text-center mb-20 md:mb-40 min-h-[70vh] flex flex-col justify-center items-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-           Your Trusted ServiceNow Subcontractor for Federal Projects
+          Leading ServiceNow Solutions for Federal Agencies
         </h1>
         <p className="text-xl md:text-3xl text-light-blue mb-8">
-          Strengthening prime contractor delivery with specialized ServiceNow expertise and federal compliance.
+          Delivering excellence in ServiceNow implementation with deep federal expertise and proven results.
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-          Become a Prime Partner
+          Partner With Us
           <ArrowRight className="ml-2" />
         </a>
       </motion.header>
