@@ -125,7 +125,7 @@ export default function TrustpointConsultingLandingPage() {
           Driving Premium ServiceNow Solutions for Federal Agencies
         </h1>
         <p className="text-xl md:text-3xl text-light-blue mb-8">
-          Delivering excellence through ServiceNow solutions that modernize and strengthen federal operations
+          We deliver excellence via our ServiceNow solutions that modernize and strengthen federal operations
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
           Partner With Us
