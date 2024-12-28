@@ -222,7 +222,7 @@ export default function TrustpointConsultingLandingPage() {
                   <li>Incident Management</li>
                   <li>Change Management</li>
                   <li>Problem Management</li>
-                  <li>Service Portal Development</li>
+                  <li>Service Catalog Development</li>
                   <li>Knowledge Management</li>
                 </ul>
               </div>
@@ -231,7 +231,7 @@ export default function TrustpointConsultingLandingPage() {
                 <Shield className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">Integrated Risk Management</h4>
                 <p className="text-gray-700 mb-6">
-                  We leverage ServiceNow GRC modules to implement continuous monitoring, automated control testing, and real-time risk scoring aligned with NIST frameworks and federal mandates.
+                  We leverage ServiceNow GRC modules to implement continuous monitoring, automated control testing, and real-time risk scoring aligned with federal frameworks and mandates.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Policy & Compliance Management</li>
@@ -246,7 +246,7 @@ export default function TrustpointConsultingLandingPage() {
                 <Code className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">Platform Management</h4>
                 <p className="text-gray-700 mb-6">
-                  We optimize instance performance through automated testing, CI/CD pipelines, and scalable architecture design while maintaining ATO requirements and security boundaries.
+                  We optimize instance performance through automated testing, release management, and scalable architecture design while considering ATO requirements and security boundaries.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Custom Application Development</li>
