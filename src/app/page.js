@@ -143,23 +143,23 @@ export default function TrustpointConsultingLandingPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl text-center text-navy-blue mb-8">WHO WE ARE</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
-           We are a team of experts who lead with a people-first, collaborative approach to government IT
+           We are a team of ServiceNow experts who lead with a people-first approach to government IT
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Clock className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">Prime Support</h4>
-              <p>We augment prime contractor capabilities with specialized ServiceNow expertise, ensuring successful delivery on federal contracts.</p>
+              <h4 className="text-xl font-semibold mb-4">ServiceNow Excellence</h4>
+              <p>We deliver specialized ServiceNow expertise to federal agencies, ensuring successful implementation and optimization of your platform.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Zap className="w-12 h-12 text-light-blue mb-4" />
               <h4 className="text-xl font-semibold mb-4">Federal Compliance</h4>
-              <p>We help prime contractors maintain FedRAMP compliance while implementing new ServiceNow features and capabilities.</p>
+              <p>Our team maintains rigorous FedRAMP compliance standards while implementing innovative ServiceNow features and capabilities.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Shield className="w-12 h-12 text-light-blue mb-4" />
               <h4 className="text-xl font-semibold mb-4">Risk Management</h4>
-              <p>Our deep understanding of federal security requirements helps prime contractors mitigate risks in ServiceNow implementations.</p>
+              <p>We leverage our deep understanding of federal security requirements to ensure robust and secure ServiceNow implementations.</p>
             </div>
           </div>
         </div>
@@ -181,19 +181,19 @@ export default function TrustpointConsultingLandingPage() {
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
             <h3 className="font-semibold text-xl mb-2">Integrity</h3>
-            <p className="text-gray-700">We build relationships through transparent, ethical conduct and reliable delivery.</p>
+            <p className="text-gray-700">Building trust through transparency and delivering on our promises with unwavering ethical standards.</p>
           </div>
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
             <h3 className="font-semibold text-xl mb-2">Pursuit of Excellence</h3>
-            <p className="text-gray-700">We demonstrate deep understanding of government requirements and compliance standards.</p>
+            <p className="text-gray-700">Mastering government requirements and compliance standards to deliver superior solutions.</p>
           </div>
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
             <h3 className="font-semibold text-xl mb-2">People-First Approach</h3>
-            <p className="text-gray-700">We focus on the human element in every technical solution we deliver.</p>
+            <p className="text-gray-700">Focusing on your team&apos;s needs to deliver ServiceNow solutions that enhance productivity and user satisfaction.</p>
           </div>
         </div>
       </div>
@@ -216,7 +216,7 @@ export default function TrustpointConsultingLandingPage() {
                 <FileText className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">IT Service Management</h4>
                 <p className="text-gray-700 mb-6">
-                  We implement ServiceNow workflows following ITIL best practices, including structured incident management, change control, problem management, and service request processes, all configured to meet FedRAMP security requirements.
+                  We implement ServiceNow workflows following ITIL best practices, including structured incident management, change control, problem management, and service request processes, all configured to meet federal security requirements.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Incident Management</li>
