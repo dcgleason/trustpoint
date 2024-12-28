@@ -216,7 +216,7 @@ export default function TrustpointConsultingLandingPage() {
                 <FileText className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">IT Service Management</h4>
                 <p className="text-gray-700 mb-6">
-                  We implement ServiceNow workflows following ITIL best practices, including structured incident management, change control, problem management, and service request processes, all configured to meet federal security requirements.
+                  We implement ServiceNow ITSM processes aligned with ITIL best practices, delivering structured incident management, change control, problem management, and service request fulfillment, all configured to meet federal security requirements.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Incident Management</li>
@@ -272,24 +272,32 @@ export default function TrustpointConsultingLandingPage() {
         <div className="max-w-3xl mx-auto">
           {[
             {
-              question: "What sets TrustPoint apart in government ServiceNow implementations?",
-              answer: "TrustPoint Consulting Group specializes exclusively in federal ServiceNow implementations with an in-house team of certified experts who understand government compliance requirements. Our security-first approach and deep understanding of federal IT environments ensure successful implementations that meet all necessary standards and requirements."
+              question: "What makes TrustPoint the right partner for federal ServiceNow projects?",
+              answer: "As a ServiceNow-focused federal contractor, we bring three key advantages: 1) Our team holds current ServiceNow certifications and security clearances, 2) We have direct experience with federal ATO processes and security requirements, and 3) We maintain a proven track record of successful federal implementations."
             },
             {
-              question: "How do you ensure compliance with federal security standards?",
-              answer: "We maintain comprehensive knowledge of FedRAMP, FISMA, NIST, and other federal compliance frameworks. Our implementation processes include built-in compliance checks, security controls, and documentation to ensure your ServiceNow instance meets or exceeds all federal security requirements."
+              question: "How do you address FedRAMP and security compliance?",
+              answer: "We integrate compliance at every project phase: 1) Initial assessment against FedRAMP, FISMA, and NIST requirements, 2) Implementation of required security controls and documentation, 3) Regular security testing and validation, and 4) Continuous monitoring to maintain compliance. Our team includes certified security professionals who understand both ServiceNow and federal security frameworks."
             },
             {
-              question: "What is your implementation methodology?",
-              answer: "Our implementation approach combines ServiceNow best practices with government-specific requirements. We follow a structured methodology that includes thorough requirements gathering, security-focused design, staged implementation, comprehensive testing, and detailed documentation. Throughout the process, we maintain clear communication and regular progress updates."
+              question: "What can agencies expect during implementation?",
+              answer: "Our federal-focused implementation process follows five phases: 1) Requirements and security assessment, 2) Architecture and compliance design, 3) Phased implementation with regular testing, 4) User training and change management, and 5) Go-live support and documentation. Each phase includes clear deliverables and compliance checkpoints."
             },
             {
-              question: "Do you provide post-implementation support?",
-              answer: "Yes, we offer comprehensive post-implementation support including platform maintenance, optimization services, security updates, and ongoing technical support. Our support models are flexible and can be tailored to your agency's specific needs and requirements."
+              question: "What ongoing support options do you provide?",
+              answer: "We offer three tiers of post-implementation support: 1) Basic platform maintenance and security updates, 2) Enhanced support with optimization and training services, and 3) Comprehensive managed services including 24/7 support and continuous improvement. All support tiers maintain federal security compliance standards."
             },
             {
-              question: "How do you handle remote implementations?",
-              answer: "Based in Middlebury, CT, we have extensive experience delivering successful remote implementations for government agencies nationwide. We utilize secure collaboration tools and maintain regular communication through approved channels to ensure project success while meeting all security requirements."
+              question: "How do you ensure project success with remote delivery?",
+              answer: "Our remote delivery model includes: 1) Secure, FedRAMP-authorized collaboration tools, 2) Regular status meetings and progress tracking, 3) Clear communication protocols through approved channels, and 4) On-site visits for critical project phases when required. We've successfully delivered projects remotely to agencies across all 50 states."
+            },
+            {
+              question: "Who is the ideal partner for TrustPoint Consulting Group?",
+              answer: "We are specifically focused on partnering with prime contractors who are leading ServiceNow implementations in the federal space. Our ideal teaming partners are: 1) Prime contractors managing ITSM, Platform Management, or GRC implementations, 2) Federal system integrators seeking specialized ServiceNow expertise, and 3) Large contractors looking for qualified small business partners. We're also open to exploring Joint Venture opportunities and Contractor Team Arrangements (CTAs) with complementary service providers."
+            },
+            {
+              question: "Are there engagements TrustPoint doesn't pursue?",
+              answer: "At this time, we do not pursue direct prime contracts with federal agencies. Instead, we focus exclusively on subcontracting opportunities and strategic partnerships. This allows us to: 1) Leverage our ServiceNow expertise while partnering with established prime contractors, 2) Maintain focus on technical delivery excellence rather than prime contract management, and 3) Build strong, lasting partnerships within the federal contracting community."
             }
           ].map((item, index) => (
             <div key={index} className="mb-4">
