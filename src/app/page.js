@@ -143,7 +143,7 @@ export default function TrustpointConsultingLandingPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl text-center text-navy-blue mb-8">WHO WE ARE</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
-           We are a team of ServiceNow experts who lead with a people-first approach to government IT
+            ServiceNow experts who lead with a people-first approach to government IT
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
