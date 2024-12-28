@@ -122,13 +122,13 @@ export default function TrustpointConsultingLandingPage() {
         className="text-center mb-20 md:mb-40 min-h-[70vh] flex flex-col justify-center items-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-          Elite ServiceNow Services for Federal Agencies
+           Your Trusted ServiceNow Subcontractor for Federal Projects
         </h1>
         <p className="text-xl md:text-3xl text-light-blue mb-8">
-          Architecting intelligent, secure solutions that elevate government IT operations.
+          Strengthening prime contractor delivery with specialized ServiceNow expertise and federal compliance.
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
-          Partner With Us
+          Become a Prime Partner
           <ArrowRight className="ml-2" />
         </a>
       </motion.header>
@@ -143,23 +143,23 @@ export default function TrustpointConsultingLandingPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl text-center text-navy-blue mb-8">WHO WE ARE</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
-           We are a team of experts who lead with a people-first approach to government IT
+           We are a team of experts who lead with a people-first, collaborative approach to government IT
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Clock className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">Implementation</h4>
-              <p>Each agency is unique and so is our approach. We tailor implementations based on specific mission requirements and security needs.</p>
+              <h4 className="text-xl font-semibold mb-4">Prime Support</h4>
+              <p>We augment prime contractor capabilities with specialized ServiceNow expertise, ensuring successful delivery on federal contracts.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Zap className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">Optimization</h4>
-              <p>We help agencies leverage new ServiceNow features while maintaining compliance with federal security standards.</p>
+              <h4 className="text-xl font-semibold mb-4">Federal Compliance</h4>
+              <p>We help prime contractors maintain FedRAMP compliance while implementing new ServiceNow features and capabilities.</p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <Shield className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">Security Focus</h4>
-              <p>Security and compliance are built into everything we do, ensuring your ServiceNow implementation meets federal requirements.</p>
+              <h4 className="text-xl font-semibold mb-4">Risk Management</h4>
+              <p>Our deep understanding of federal security requirements helps prime contractors mitigate risks in ServiceNow implementations.</p>
             </div>
           </div>
         </div>
@@ -177,29 +177,23 @@ export default function TrustpointConsultingLandingPage() {
     >
       <div className="container mx-auto px-4">
         <h2 className="text-3xl text-center text-navy-blue mb-12">OUR CORE VALUES</h2>
-        <div className="grid md:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Integrity & Trust</h3>
-            <p className="text-gray-700">Building relationships through transparent, ethical conduct and reliable delivery.</p>
-          </div>
-          
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <MessageCircle className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Transparency</h3>
-            <p className="text-gray-700">Maintaining open, consistent dialogue with stakeholders at every level.</p>
+            <h3 className="font-semibold text-xl mb-2">Integrity</h3>
+            <p className="text-gray-700">We build relationships through transparent, ethical conduct and reliable delivery.</p>
           </div>
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
             <h3 className="font-semibold text-xl mb-2">Pursuit of Excellence</h3>
-            <p className="text-gray-700">Deep understanding of government requirements and compliance standards.</p>
+            <p className="text-gray-700">We demonstrate deep understanding of government requirements and compliance standards.</p>
           </div>
 
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
             <h3 className="font-semibold text-xl mb-2">People-First Approach</h3>
-            <p className="text-gray-700">Focusing on the human element in every technical solution we deliver.</p>
+            <p className="text-gray-700">We focus on the human element in every technical solution we deliver.</p>
           </div>
         </div>
       </div>
@@ -222,7 +216,7 @@ export default function TrustpointConsultingLandingPage() {
                 <FileText className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">IT Service Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Implementing ITIL-aligned workflows and automated service delivery through ServiceNow&apos;s Now Platform, with FedRAMP-compliant configurations and role-based access control.
+                  We implement ServiceNow workflows following ITIL best practices, including structured incident management, change control, problem management, and service request processes, all configured to meet FedRAMP security requirements.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Incident Management</li>
@@ -237,7 +231,7 @@ export default function TrustpointConsultingLandingPage() {
                 <Shield className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">Integrated Risk Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Leveraging ServiceNow GRC modules to implement continuous monitoring, automated control testing, and real-time risk scoring aligned with NIST frameworks and federal mandates.
+                  We leverage ServiceNow GRC modules to implement continuous monitoring, automated control testing, and real-time risk scoring aligned with NIST frameworks and federal mandates.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Policy & Compliance Management</li>
@@ -252,7 +246,7 @@ export default function TrustpointConsultingLandingPage() {
                 <Code className="w-12 h-12 text-light-blue mb-6 mx-auto" />
                 <h4 className="text-2xl font-semibold mb-4">Platform Management</h4>
                 <p className="text-gray-700 mb-6">
-                  Optimizing instance performance through automated testing, CI/CD pipelines, and scalable architecture design while maintaining ATO requirements and security boundaries.
+                  We optimize instance performance through automated testing, CI/CD pipelines, and scalable architecture design while maintaining ATO requirements and security boundaries.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Custom Application Development</li>
