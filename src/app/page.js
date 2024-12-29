@@ -94,8 +94,8 @@ export default function TrustpointConsultingLandingPage() {
           <Image
             src="/tpc-transparent.png"
             alt="TrustPoint Consulting Group Logo"
-            width={32}
-            height={32}
+            width={60}
+            height={60}
             className="mr-2"
           />
           <div className="text-2xl font-bold">TrustPoint Consulting Group</div>
