@@ -289,22 +289,22 @@ export default function TrustpointConsultingLandingPage() {
               question: "What makes TrustPoint the right partner for federal ServiceNow projects?",
               answer: "As a ServiceNow-focused federal contractor, we bring three key advantages: 1) Our team holds current ServiceNow certifications and security clearances, 2) We have direct experience with federal ATO processes and security requirements, and 3) We maintain a proven track record of successful federal implementations."
             },
-            {
-              question: "How do you address FedRAMP and security compliance?",
-              answer: "We integrate compliance at every project phase: 1) Initial assessment against FedRAMP, FISMA, and NIST requirements, 2) Implementation of required security controls and documentation, 3) Regular security testing and validation, and 4) Continuous monitoring to maintain compliance. Our team includes certified security professionals who understand both ServiceNow and federal security frameworks."
-            },
-            {
-              question: "What can agencies expect during implementation?",
-              answer: "Our federal-focused implementation process follows five phases: 1) Requirements and security assessment, 2) Architecture and compliance design, 3) Phased implementation with regular testing, 4) User training and change management, and 5) Go-live support and documentation. Each phase includes clear deliverables and compliance checkpoints."
-            },
-            {
-              question: "What ongoing support options do you provide?",
-              answer: "We offer three tiers of post-implementation support: 1) Basic platform maintenance and security updates, 2) Enhanced support with optimization and training services, and 3) Comprehensive managed services including 24/7 support and continuous improvement. All support tiers maintain federal security compliance standards."
-            },
-            {
-              question: "How do you ensure project success with remote delivery?",
-              answer: "Our remote delivery model includes: 1) Secure, FedRAMP-authorized collaboration tools, 2) Regular status meetings and progress tracking, 3) Clear communication protocols through approved channels, and 4) On-site visits for critical project phases when required. We've successfully delivered projects remotely to agencies across all 50 states."
-            },
+            // {
+            //   question: "How do you address FedRAMP and security compliance?",
+            //   answer: "We integrate compliance at every project phase: 1) Initial assessment against FedRAMP, FISMA, and NIST requirements, 2) Implementation of required security controls and documentation, 3) Regular security testing and validation, and 4) Continuous monitoring to maintain compliance. Our team includes certified security professionals who understand both ServiceNow and federal security frameworks."
+            // },
+            // {
+            //   question: "What can agencies expect during implementation?",
+            //   answer: "Our federal-focused implementation process follows five phases: 1) Requirements and security assessment, 2) Architecture and compliance design, 3) Phased implementation with regular testing, 4) User training and change management, and 5) Go-live support and documentation. Each phase includes clear deliverables and compliance checkpoints."
+            // },
+            // {
+            //   question: "What ongoing support options do you provide?",
+            //   answer: "We offer three tiers of post-implementation support: 1) Basic platform maintenance and security updates, 2) Enhanced support with optimization and training services, and 3) Comprehensive managed services including 24/7 support and continuous improvement. All support tiers maintain federal security compliance standards."
+            // },
+            // {
+            //   question: "How do you ensure project success with remote delivery?",
+            //   answer: "Our remote delivery model includes: 1) Secure, FedRAMP-authorized collaboration tools, 2) Regular status meetings and progress tracking, 3) Clear communication protocols through approved channels, and 4) On-site visits for critical project phases when required. We've successfully delivered projects remotely to agencies across all 50 states."
+            // },
             {
               question: "Who is the ideal partner for TrustPoint Consulting Group?",
               answer: "We are specifically focused on partnering with prime contractors who are leading ServiceNow implementations in the federal space. Our ideal teaming partners are: 1) Prime contractors managing ITSM, Platform Management, or GRC implementations, 2) Federal system integrators seeking specialized ServiceNow expertise, and 3) Large contractors looking for qualified small business partners. We're also open to exploring Joint Venture opportunities and Contractor Team Arrangements (CTAs) with complementary service providers."
