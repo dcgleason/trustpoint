@@ -106,7 +106,7 @@ export default function TrustpointConsultingLandingPage() {
           </button>
         </div>
         <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
-          <a href="#what-we-do" className="block md:inline hover:text-light-blue transition-colors py-2">Who we are</a>
+          <a href="#what-we-do" className="block md:inline hover:text-light-blue transition-colors py-2">What we do</a>
           <a href="#specialization" className="block md:inline hover:text-light-blue transition-colors py-2">Specialization</a>
           {/* <a href="#values" className="block md:inline hover:text-light-blue transition-colors py-2">Values</a> */}
           <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
@@ -141,9 +141,9 @@ export default function TrustpointConsultingLandingPage() {
         className="py-16 bg-gray-50 rounded-lg"
       >
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl text-center text-navy-blue mb-8">WHO WE ARE</h2>
+          <h2 className="text-3xl text-center text-navy-blue mb-8">WHAT WE DO</h2>
           <h3 className="text-4xl md:text-5xl font-bold text-center mb-12">
-            ServiceNow experts who lead with a people-first approach to government IT
+            Our philosophy is to lead with a people-first approach
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md">
