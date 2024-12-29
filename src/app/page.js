@@ -208,7 +208,7 @@ export default function TrustpointConsultingLandingPage() {
         className="py-20 bg-white"
         >
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl text-center text-navy-blue mb-8">WHAT WE DO</h2>
+          <h2 className="text-3xl text-center text-navy-blue mb-8">SPECIALIZATION</h2>
           <div className="text-center mb-16">
             <h3 className="text-5xl font-bold mb-12">ServiceNow®</h3>
             <div className="grid md:grid-cols-3 gap-12">
