@@ -119,13 +119,13 @@ export default function TrustpointConsultingLandingPage() {
         initial="hidden"
         animate="visible"
         variants={fadeIn}
-        className="text-center mb-20 md:mb-40 min-h-[70vh] flex flex-col justify-center items-center"
+        className="text-center mb-20 md:mb-32 min-h-[70vh] flex flex-col justify-center items-center"
       >
-        <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-4 tracking-tight">
-          Driving Federal ServiceNow Success with Domain Expertise
+        <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-6 tracking-tight max-w-4xl">
+          Domain Experts Delivering Federal ServiceNow Excellence
         </h1>
-        <p className="text-xl md:text-3xl text-light-blue mb-8">
-          We deliver excellence via our ServiceNow solutions that modernize and strengthen federal operations
+        <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl">
+          We combine deep federal expertise with ServiceNow solutions to modernize and strengthen mission-critical operations across government agencies.
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
           Partner With Us
