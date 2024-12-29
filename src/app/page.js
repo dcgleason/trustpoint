@@ -353,7 +353,7 @@ export default function TrustpointConsultingLandingPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-md">
               <h3 className="text-2xl font-semibold mb-6">Our Location</h3>
-              <p className="mb-2">TrustPoint Consulting Group LLC</p>
+              <p className="mb-2">Trustpoint Consulting Group LLC</p>
               <p className="mb-2">Middlebury, CT</p>
               <p className="text-sm text-gray-600">Supporting federal agencies nationwide through secure remote delivery</p>
             </div>
