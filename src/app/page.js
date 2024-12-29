@@ -193,7 +193,7 @@ export default function TrustpointConsultingLandingPage() {
           <div className="text-center bg-white p-6 rounded-lg shadow-md">
             <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
             <h3 className="font-semibold text-xl mb-2">People-First Approach</h3>
-            <p className="text-gray-700">Focusing on your team&apos;s needs to deliver ServiceNow solutions that enhance productivity and user satisfaction.</p>
+            <p className="text-gray-700">Focusing on your organization&apos;s needs to deliver ServiceNow solutions that enhance productivity and user satisfaction.</p>
           </div>
         </div>
       </div>
