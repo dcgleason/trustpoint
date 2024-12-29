@@ -146,20 +146,20 @@ export default function TrustpointConsultingLandingPage() {
             Our philosophy is to lead with a people-first approach
           </h3>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <Clock className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">ServiceNow Excellence</h4>
-              <p>We deliver specialized ServiceNow expertise to federal agencies, ensuring successful implementation and optimization of your platform.</p>
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <Users className="w-12 h-12 text-light-blue mb-4 mx-auto" />
+              <h4 className="text-xl font-semibold mb-4">Implementation</h4>
+              <p className="text-gray-600">Each customer is unique and so is our approach. We tailor each implementation based on the desired business outcomes and organizational needs.</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <Zap className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">Federal Compliance</h4>
-              <p>Our team maintains rigorous FedRAMP compliance standards while implementing innovative ServiceNow features and capabilities.</p>
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <Clock className="w-12 h-12 text-light-blue mb-4 mx-auto" />
+              <h4 className="text-xl font-semibold mb-4">Optimization</h4>
+              <p className="text-gray-600">With every release of ServiceNow® comes new functionality and improvements</p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <Shield className="w-12 h-12 text-light-blue mb-4" />
-              <h4 className="text-xl font-semibold mb-4">Risk Management</h4>
-              <p>We leverage our deep understanding of federal security requirements to ensure robust and secure ServiceNow implementations.</p>
+            <div className="bg-white p-8 rounded-lg shadow-md text-center">
+              <FileText className="w-12 h-12 text-light-blue mb-4 mx-auto" />
+              <h4 className="text-xl font-semibold mb-4">Upgrade Support</h4>
+              <p className="text-gray-600">With the version compliance requirements from ServiceNow® upgrading can seem daunting</p>
             </div>
           </div>
         </div>
