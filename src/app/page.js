@@ -84,6 +84,20 @@ export default function TrustpointConsultingLandingPage() {
     <Head>
       <title>TrustPoint Consulting Group | Premier ServiceNow Solutions for Federal Agencies</title>
       <meta name="description" content="Specialized ServiceNow consulting and implementation services for government agencies. Expert ITSM, Security Operations, and IRM solutions that meet federal compliance standards." />
+      <meta name="keywords" content="ServiceNow, Federal Consulting, ITSM, GRC, Security Operations, Government IT Solutions, FedRAMP" />
+      <link rel="canonical" href="https://trustpointconsulting.co" />
+      
+      {/* Open Graph / Social Media */}
+      <meta property="og:title" content="TrustPoint Consulting Group | Premier ServiceNow Solutions" />
+      <meta property="og:description" content="Specialized ServiceNow consulting and implementation services for government agencies." />
+      <meta property="og:url" content="https://trustpointconsulting.co" />
+      <meta property="og:type" content="website" />
+      
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="TrustPoint Consulting Group" />
+      <meta name="twitter:description" content="Specialized ServiceNow consulting for federal agencies." />
+      
       <link rel="icon" href="/favicon.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </Head>
