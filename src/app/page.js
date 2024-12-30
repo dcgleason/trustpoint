@@ -287,10 +287,10 @@ export default function TrustpointConsultingLandingPage() {
         <h2 className="text-3xl md:text-4xl font-semibold text-navy-blue mb-8 text-center">Frequently Asked Questions</h2>
         <div className="max-w-3xl mx-auto">
           {[
-            {
-              question: "What makes TrustPoint the right partner for federal ServiceNow projects?",
-              answer: "As a ServiceNow-focused federal contractor, we bring three key advantages: 1) Our team holds current ServiceNow certifications and security clearances, 2) We have direct experience with federal ATO processes and security requirements, and 3) We maintain a proven track record of successful federal implementations."
-            },
+            // {
+            //   question: "What makes TrustPoint the right partner for federal ServiceNow projects?",
+            //   answer: "As a ServiceNow-focused federal contractor, we bring three key advantages: 1) Our team holds current ServiceNow certifications and security clearances, 2) We have direct experience with federal ATO processes and security requirements, and 3) We maintain a proven track record of successful federal implementations."
+            // },
             // {
             //   question: "How do you address FedRAMP and security compliance?",
             //   answer: "We integrate compliance at every project phase: 1) Initial assessment against FedRAMP, FISMA, and NIST requirements, 2) Implementation of required security controls and documentation, 3) Regular security testing and validation, and 4) Continuous monitoring to maintain compliance. Our team includes certified security professionals who understand both ServiceNow and federal security frameworks."
