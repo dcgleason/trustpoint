@@ -122,7 +122,7 @@ export default function TrustpointConsultingLandingPage() {
         <div className={`md:flex space-x-4 ${isMenuOpen ? 'block absolute top-full left-0 right-0 bg-navy-blue p-4' : 'hidden'}`}>
           <a href="#what-we-do" className="block md:inline hover:text-light-blue transition-colors py-2">What we do</a>
           <a href="#specialization" className="block md:inline hover:text-light-blue transition-colors py-2">Specialization</a>
-          {/* <a href="#values" className="block md:inline hover:text-light-blue transition-colors py-2">Values</a> */}
+          <a href="#values" className="block md:inline hover:text-light-blue transition-colors py-2">Core Values</a>
           <a href="#contact" className="block md:inline hover:text-light-blue transition-colors py-2">Contact</a>
         </div>
       </div>
@@ -193,7 +193,7 @@ export default function TrustpointConsultingLandingPage() {
         className="py-20 bg-white"
         >
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl text-center text-navy-blue mb-8">SPECIALIZATION</h2>
+          <h2 className="text-3xl text-center text-navy-blue mb-8">WE SPECIALIZE IN</h2>
           <div className="text-center mb-16">
             <h3 className="text-5xl font-bold mb-12">ServiceNow®</h3>
             <div className="grid md:grid-cols-3 gap-12">
