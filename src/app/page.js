@@ -182,36 +182,7 @@ export default function TrustpointConsultingLandingPage() {
 
        
 
-        <motion.section
-      id="values"
-      initial="hidden"
-      animate="visible"
-      variants={fadeIn}
-      className="py-16 bg-gray-50"
-    >
-      <div className="container mx-auto px-4">
-        <h2 className="text-3xl text-center text-navy-blue mb-12">OUR CORE VALUES</h2>
-        <div className="grid md:grid-cols-3 gap-8">
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Integrity</h3>
-            <p className="text-gray-700">We work to build trust through transparent communication, on-time delivery, and unwavering ethical standards.</p>
-          </div>
-
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">Pursuit of Excellence</h3>
-            <p className="text-gray-700">We&apos;ve mastered government requirements and compliance standards to deliver superior solutions.</p>
-          </div>
-
-          <div className="text-center bg-white p-6 rounded-lg shadow-md">
-            <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
-            <h3 className="font-semibold text-xl mb-2">People-First Approach</h3>
-            <p className="text-gray-700">We focus on your organization&apos;s needs to deliver ServiceNow solutions that enhance productivity and user satisfaction.</p>
-          </div>
-        </div>
-      </div>
-    </motion.section>
+        
 
 
     <motion.section
@@ -273,6 +244,37 @@ export default function TrustpointConsultingLandingPage() {
             </div>
           </div>
         </div>
+    </motion.section>
+
+    <motion.section
+      id="values"
+      initial="hidden"
+      animate="visible"
+      variants={fadeIn}
+      className="py-16 bg-gray-50"
+    >
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl text-center text-navy-blue mb-12">OUR CORE VALUES</h2>
+        <div className="grid md:grid-cols-3 gap-8">
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <Shield className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">Integrity</h3>
+            <p className="text-gray-700">We work to build trust through transparent communication, on-time delivery, and unwavering ethical standards.</p>
+          </div>
+
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <Briefcase className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">Pursuit of Excellence</h3>
+            <p className="text-gray-700">We&apos;ve mastered government requirements and compliance standards to deliver superior solutions.</p>
+          </div>
+
+          <div className="text-center bg-white p-6 rounded-lg shadow-md">
+            <Users className="w-12 h-12 mx-auto text-light-blue mb-4" />
+            <h3 className="font-semibold text-xl mb-2">People-First Approach</h3>
+            <p className="text-gray-700">We focus on your organization&apos;s needs to deliver ServiceNow solutions that enhance productivity and user satisfaction.</p>
+          </div>
+        </div>
+      </div>
     </motion.section>
 
       <motion.section
