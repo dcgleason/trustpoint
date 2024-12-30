@@ -396,14 +396,15 @@ export default function TrustpointConsultingLandingPage() {
             <div>
               <h4 className="font-semibold text-xl mb-4">Contact</h4>
               <p className="text-sm">Middlebury, CT</p>
-              <a href="mailto:dan@trustpointconsulting.co" className="text-sm hover:text-light-blue">info@trustpointconsulting.com</a>
+              <a href="mailto:dan@trustpointconsulting.co" className="text-sm hover:text-light-blue">dan@trustpointconsulting.co</a>
             </div>
             <div>
               <h4 className="font-semibold text-xl mb-4">Quick Links</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#services" className="hover:text-light-blue">Services</a></li>
-                <li><a href="#expertise" className="hover:text-light-blue">Expertise</a></li>
-                <li><a href="#faq" className="hover:text-light-blue">FAQs</a></li>
+                <li><a href="#what-we-do" className="hover:text-light-blue">What we do</a></li>
+                <li><a href="#specialization" className="hover:text-light-blue">Specialization</a></li>
+                <li><a href="#values" className="hover:text-light-blue">Core Values</a></li>
+                <li><a href="#contact" className="hover:text-light-blue">Contact</a></li>
               </ul>
             </div>
           </div>
