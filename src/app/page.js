@@ -229,16 +229,16 @@ export default function TrustpointConsultingLandingPage() {
 
               <div className="bg-white p-8 rounded-lg shadow-md">
                 <Code className="w-12 h-12 text-light-blue mb-6 mx-auto" />
-                <h4 className="text-2xl font-semibold mb-4">Platform Management</h4>
+                <h4 className="text-2xl font-semibold mb-4">Custom App Development</h4>
                 <p className="text-gray-700 mb-6">
-                  We optimize instance performance through automated testing, release management, and scalable architecture design while considering ATO requirements and security boundaries.
+                  We deliver unique solutions to your internal or external customers that will enhance core platform features and functionality while maintaining federal security requirements.
                 </p>
                 <ul className="text-left list-disc pl-6">
                   <li>Custom Application Development</li>
-                  <li>Platform Upgrades</li>
-                  <li>Security Controls Implementation</li>
-                  <li>Performance Optimization</li>
-                  <li>Integration Services</li>
+                  <li>Platform Integrations</li>
+                  <li>Workflow Automation</li>
+                  <li>User Interface Design</li>
+                  <li>Performance Testing</li>
                 </ul>
               </div>
             </div>
