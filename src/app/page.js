@@ -139,7 +139,7 @@ export default function TrustpointConsultingLandingPage() {
           Domain Experts Delivering ServiceNow Excellence within the Federal Space
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl">
-          We combine deep federal expertise with ServiceNow solutions to modernize and strengthen mission-critical operations across government agencies.
+          We combine deep federal and ServiceNow expertise to modernize and strengthen mission-critical operations across government agencies.
         </p>
         <a href="#contact" className="bg-navy-blue text-white py-3 px-6 rounded-full text-lg md:text-xl font-semibold hover:bg-light-blue transition-colors inline-flex items-center">
           Partner With Us
