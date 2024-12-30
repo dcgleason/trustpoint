@@ -136,7 +136,7 @@ export default function TrustpointConsultingLandingPage() {
         className="text-center mb-20 md:mb-32 min-h-[70vh] flex flex-col justify-center items-center"
       >
         <h1 className="text-4xl md:text-6xl font-bold text-navy-blue mb-6 tracking-tight max-w-4xl">
-          Delivering ServiceNow Excellence within the Federal Space
+          Delivering ServiceNow Excellence within the US Federal Space
         </h1>
         <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl">
           We combine deep federal and ServiceNow expertise to modernize and strengthen mission-critical operations across government agencies.
